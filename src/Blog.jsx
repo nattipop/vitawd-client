@@ -9,6 +9,7 @@ const Blog = () => {
     useEffect(() => {
       axios.get(`https://vita-web-design-api.herokuapp.com/api/posts`,{
         headers:{
+          "Access-Control-Allow-Origin": "http://www.vitawd.com",
           "accepts":"application/json"
         }
       }).then(

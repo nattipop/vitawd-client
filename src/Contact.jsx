@@ -44,7 +44,11 @@ const Contact = () => {
       haveDomain: domain
     };
 
-    axios.post("https://vita-web-design-api.herokuapp.com/api/new-email", data).then(res => {
+    axios.post("https://vita-web-design-api.herokuapp.com/api/new-email", {
+      headers:{
+        "Access-Control-Allow-Origin": "http://www.vitawd.com"
+      }
+    }, data).then(res => {
       console.log(res);
       resetForm();
       setErrorMessage("");

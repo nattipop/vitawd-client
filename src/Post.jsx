@@ -11,6 +11,7 @@ const Post = () => {
   useEffect(() => {
     axios.get(`https://vita-web-design-api.herokuapp.com/api/post/${_id}`, {
       headers:{
+        "Access-Control-Allow-Origin": "http://www.vitawd.com",
         "accepts":"application/json"
       }
     }).then(
