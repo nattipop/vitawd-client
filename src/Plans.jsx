@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import LogoDesign from "./LogoDesign";
 import keys from "../config/keys";
+import axios from "axios";
 
 const Plans = () => {
   const [plansData, setPlansData] = useState();

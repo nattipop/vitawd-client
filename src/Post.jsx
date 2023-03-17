@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
-import keys from "../config/keys"
+import keys from "../config/keys";
+import axios from "axios";
 
 const Post = () => {
   const [postData, setPostData] = useState();
