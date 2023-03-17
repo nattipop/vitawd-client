@@ -44,7 +44,7 @@ const Contact = () => {
       haveDomain: domain
     };
 
-    axios.post("/api/new-email", data).then(res => {
+    axios.post("https://vita-web-design-api.herokuapp.com/api/new-email", data).then(res => {
       console.log(res);
       resetForm();
       setErrorMessage("");

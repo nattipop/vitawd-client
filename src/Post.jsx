@@ -9,7 +9,7 @@ const Post = () => {
   const { _id } = useParams()
 
   useEffect(() => {
-    axios.get(`${keys.serverUrl}/post/${_id}`, {
+    axios.get(`https://vita-web-design-api.herokuapp.com/api/post/${_id}`, {
       headers:{
         "accepts":"application/json"
       }

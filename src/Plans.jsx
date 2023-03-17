@@ -6,7 +6,7 @@ import axios from "axios";
 const Plans = () => {
   const [plansData, setPlansData] = useState();
   useEffect(() => {
-    axios.get(`${keys.serverUrl}/plans`,{
+    axios.get(`https://vita-web-design-api.herokuapp.com/api/plans`,{
       headers:{
         "accepts":"application/json"
       }

@@ -7,7 +7,7 @@ const Blog = () => {
   const [blogData, setBlogData] = useState()
 
     useEffect(() => {
-      axios.get(`${keys.serverUrl}/posts`,{
+      axios.get(`https://vita-web-design-api.herokuapp.com/api/posts`,{
         headers:{
           "accepts":"application/json"
         }
