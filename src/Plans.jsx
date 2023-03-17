@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import LogoDesign from "./LogoDesign";
+import keys from "../config/keys";
 
 const Plans = () => {
   const [plansData, setPlansData] = useState();
   useEffect(() => {
-    fetch("/api/plans",{
+    axios.get(`${keys.serverUrl}/plans`,{
       headers:{
         "accepts":"application/json"
       }

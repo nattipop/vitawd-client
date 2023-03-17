@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
+import keys from "../config/keys"
 
 const Post = () => {
   const [postData, setPostData] = useState();
   const { _id } = useParams()
 
   useEffect(() => {
-    fetch(`/api/post/${_id}`, {
+    axios.get(`${keys.serverUrl}/post/${_id}`, {
       headers:{
         "accepts":"application/json"
       }
