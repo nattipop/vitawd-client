@@ -1,1 +1,1 @@
-module.exports = require("./prod")
+export default "./prod"
