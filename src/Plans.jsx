@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import LogoDesign from "./LogoDesign";
-import {keys} from "../config/keys";
+import keys from "../config/keys";
 
 const Plans = () => {
   const [plansData, setPlansData] = useState();
