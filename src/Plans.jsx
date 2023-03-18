@@ -8,7 +8,7 @@ const Plans = () => {
   useEffect(() => {
     axios.get(`https://vita-web-design-api.herokuapp.com/api/plans`,{
       headers:{
-        "Access-Control-Allow-Origin": "http://www.vitawd.com",
+        "Access-Control-Allow-Origin": "https://vita-web-design.herokuapp.com/",
         "accepts":"application/json"
       }
     }).then(
