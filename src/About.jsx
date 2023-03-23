@@ -9,8 +9,7 @@ const About = () => {
         </div>
         <div></div>
         <div>
-          <h3 className="about-me-text">I started Vita Web Design because I saw a need in my community for good websites. Many small businesses have websites, but they don't work properly and are outdated. Some simply don't have a website.<br/>
-          <br/>
+          <h3 className="about-me-text" style={{paddingTop: "20px"}}>I started Vita Web Design because I saw a need in my community for good websites. Many small businesses have websites, but they don't work properly and are outdated. Some simply don't have a website.<br/>
           I want to show them the importance of a good website.
           </h3><br/>
           <br/>
