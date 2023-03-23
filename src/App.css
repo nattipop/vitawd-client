@@ -152,7 +152,7 @@
   border-radius: 50%;
   object-fit: cover;
   padding: 30px;
-  margin-top: 60px;
+  margin-top: -230px;
 }
 
 .about-me-background {
@@ -302,6 +302,11 @@
   height: 21vw;
   padding: 2vw;
   object-fit: cover;
+}
+
+#no-posts {
+  height: 20vw;
+  margin-top: 60px;
 }
 
 .post-list-div {
