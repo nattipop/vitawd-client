@@ -9,10 +9,14 @@ const About = () => {
         </div>
         <div></div>
         <div>
-          <h3 className="about-me-text">I started Vita Web Design because I saw a need in my community for good websites. I noticed many small businesses have a website that doesn't work properly or is outdated. Some simply don't have a website at all.<br/>
+          <h3 className="about-me-text">I started Vita Web Design because I saw a need in my community for good websites. Many small businesses have websites, but they don't work properly and are outdated. Some simply don't have a website.<br/>
           <br/>
-          I want to show the amazing businesses and non-profits around me the importance of a good website. 
+          I want to show them the importance of a good website.
           </h3>
+        </div>
+        <div>
+          <h3>I have worked with HTML CSS and Javascript to build projects from scratch, as well as building with frameworks such as React and Wordpress.org.</h3>
+          <br/>
         </div>
       </div>
     </div>
