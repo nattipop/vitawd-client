@@ -10,7 +10,7 @@ const Blog = () => {
       axios.get(`https://vita-web-design-api.herokuapp.com/api/posts`,{
         mode: "cors",
         headers:{
-          "Access-Control-Allow-Origin": "https://vitawd.com",
+          "Access-Control-Allow-Origin": "https://www.vitawd.com",
           "Access-Control-Allow-Credentials": true,
           "accepts":"application/json"
         }
