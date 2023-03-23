@@ -13,11 +13,8 @@ const Plans = () => {
       }
     }).then(
       response => {
-        console.log(response)
-        response.json()
+        setPlansData(response.data)
       }
-    ).then(
-      data => setPlansData(data)
     )
   }, [])
 
