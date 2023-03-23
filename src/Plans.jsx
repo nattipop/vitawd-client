@@ -12,7 +12,10 @@ const Plans = () => {
         "accepts":"application/json"
       }
     }).then(
-      response => response.json()
+      response => {
+        console.log(response)
+        response.json()
+      }
     ).then(
       data => setPlansData(data)
     )
