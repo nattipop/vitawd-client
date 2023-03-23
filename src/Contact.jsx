@@ -46,7 +46,8 @@ const Contact = () => {
 
     axios.post("https://vita-web-design-api.herokuapp.com/api/new-email", {
       headers:{
-        "Access-Control-Allow-Origin": "https://www.vitawd.com/"
+        "Access-Control-Allow-Origin": "https://www.vitawd.com",
+        "Access-Control-Allow-Credentials": true
       },
       body: data
     }).then(res => {
