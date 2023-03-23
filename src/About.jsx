@@ -6,14 +6,11 @@ const About = () => {
         <div className="about-me-text">
           <h1>Hi, I'm Natalie</h1>
           <h3>I'm a Web Developer and Designer located in Northern Wisconsin. My goal is to help businesses and non-profits in my area build an online presence.</h3>
-        </div>
-        <div></div>
-        <div>
-          <h3 className="about-me-text" style={{marginTop: "-60px"}}>I started Vita Web Design because I saw a need in my community for good websites. Many small businesses have websites, but they don't work properly and are outdated. Some simply don't have a website.<br/>
-          I want to show them the importance of a good website.
-          </h3><br/>
           <br/>
-          <h3>I have worked with HTML CSS and Javascript to build projects from scratch, as well as building with frameworks such as React and Wordpress.org.</h3>
+          <h3>I started Vita Web Design because I saw a need in my community for good websites. Many small businesses have websites, but they don't work properly and are outdated. My job is to show them the difference a good online presence can make.
+          </h3>
+          <br/>
+          <h3>I have worked with HTML CSS and Javascript to build projects from scratch, as well as building with frameworks like <a href="https://blog.hubspot.com/website/react-js">React</a> and content management systems such as <a href="https://wordpress.org/">Wordpress.org</a>.</h3>
           <br/>
         </div>
       </div>
