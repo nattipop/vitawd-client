@@ -16,7 +16,6 @@ function App() {
   const [clicked, setClicked] = useState(false);
   
   useEffect(() => {
-    console.log("ran")
     if(clicked) {
       document.getElementById("hamburger-dropdown").style.display = "block";
     } else {

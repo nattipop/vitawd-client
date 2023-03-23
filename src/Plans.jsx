@@ -18,6 +18,8 @@ const Plans = () => {
     )
   }, [])
 
+  console.log(plansData)
+
   const renderPlans = () => {
     return plansData ? (
       plansData.map(plan => {
