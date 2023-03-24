@@ -2,11 +2,11 @@ import { useState } from "react";
 import axios from "axios";
 
 const Contact = () => {
-  const [fn, setFn] = useState();
-  const [ln, setLn] = useState();
-  const [email, setEmail] = useState();
-  const [bn, setBn] = useState();
-  const [service, setService] = useState();
+  const [fn, setFn] = useState("");
+  const [ln, setLn] = useState("");
+  const [email, setEmail] = useState("");
+  const [bn, setBn] = useState("");
+  const [service, setService] = useState("");
   const [website, setWebsite] = useState(false);
   const [domain, setDomain] = useState(false);
   const [errorMessage, setErrorMessage] = useState(false);
@@ -68,14 +68,22 @@ const Contact = () => {
         <input onChange={(e) => setBn(e.target.value)} value={bn} className="text-input" placeholder="Business/Non-Profit Name" />
         <h3>Service you're interested in</h3>
         <div id="service-input">
-          <input onChange={(e) => setService(e.target.value)}type="radio" id="basic-website" name="service" value="basic website"/>
-          <label for="meeting">Basic Website</label><br/>
-          <input onChange={(e) => setService(e.target.value)} type="radio" id="custom-website" name="service" value="custom website"/>
-          <label for="custom-website">Custom Website</label><br/>
-          <input onChange={(e) => setService(e.target.value)} type="radio" id="website-maintenance" name="service" value="website maintenance"/>
-          <label for="website-maintenance">Website Maintenance</label><br/>
-          <input onChange={(e) => setService(e.target.value)} type="radio" id="logo-design" name="service" value="logo design"/>
-          <label for="logo-design">Logo Design</label><br/>
+          <div className="radio-input">
+            <input onChange={(e) => setService(e.target.value)} type="radio" id="basic-website" name="service" value="basic website"/>
+            <label for="meeting">Basic Website</label><br/>
+          </div>
+          <div className="radio-input">
+            <input onChange={(e) => setService(e.target.value)} type="radio" id="custom-website" name="service" value="custom website"/>
+            <label for="custom-website">Custom Website</label><br/>
+          </div>
+          <div className="radio-input">
+            <input onChange={(e) => setService(e.target.value)} type="radio" id="website-maintenance" name="service" value="website maintenance"/>
+            <label for="website-maintenance">Website Maintenance</label><br/>
+          </div>
+          <div className="radio-input">
+            <input onChange={(e) => setService(e.target.value)} type="radio" id="logo-design" name="service" value="logo design"/>
+            <label for="logo-design">Logo Design</label><br/>
+          </div>
         </div>
         <h3><input onChange={() => setWebsite(!website)} className="form-checkbox" type="checkbox" checked={website} />I currently have a website</h3>
         <h3><input onChange={() => setDomain(!domain)} className="form-checkbox" type="checkbox" checked={domain}/>I own a domain that I would like to use for my website</h3>

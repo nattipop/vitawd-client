@@ -161,6 +161,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 60px;
 }
 
 .about-me-section {
@@ -368,6 +369,27 @@
   margin: 4vw;
 }
 
+.radio-input {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.radio-input input[type="radio"] {
+  accent-color: var(--website-theme);
+  color-scheme: white;
+  position: relative;
+  top: 3px;
+}
+
+.radio-input input[type="radio"]:hover {
+  cursor: pointer;
+}
+
+.radio-input label {
+  margin-left: 5px;
+}
+
 .schedule-text {
   width: 30vw;
 }
@@ -399,14 +421,18 @@
 
 .form-checkbox {
   margin: 0.5vw;
+  margin-right: 8px;
   height: 17px;
   width: 17px;
-  background-color: white;
+  color-scheme: white;
+  accent-color: var(--website-theme);
 }
 
 #submit-button {
   background-color: var(--website-accent-2);
   margin-top: 3vw;
+  color: white;
+  border-color: white;
 }
 
 #service-input {
@@ -517,6 +543,10 @@
     position: absolute;
   }
 
+  #hamburger-dropdown {
+    top: 60px;
+  }
+
   .plan-div {
     min-width: 70vw;
     max-width: 70vw;
@@ -534,7 +564,7 @@
   }
 
   .logo-display-flex {
-    margin: 7vw;
+    margin: 80px;
   }
 
   .post-list-div {
@@ -567,6 +597,10 @@
 
   .about-me-text {
     padding: 0px 80px 20px;
+  }
+
+  #natalie-headshot {
+    margin-top: 0px;
   }
 
   .about-me-background {
