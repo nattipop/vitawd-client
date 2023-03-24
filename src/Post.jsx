@@ -29,7 +29,7 @@ const Post = () => {
       <h1 className="post-full-title">{postData.title}</h1>
       <h3 className="time-stamp">Written by {postData.author} on {postData.time_stamp}</h3>
       <div className="container post-full-content">
-        <p>{postData.content}</p>
+        <pre>{postData.content}</pre>
       </div>
     </div>
   ) : (
