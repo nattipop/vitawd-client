@@ -15,11 +15,7 @@ const Blog = () => {
           "accepts":"application/json"
         }
       }).then(
-        response => response.json()
-      ).then(
-        data => {
-          setBlogData(data)
-        }
+        response => setBlogData(response.data)
       )
     }, [])
 
