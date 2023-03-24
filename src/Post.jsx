@@ -16,11 +16,7 @@ const Post = () => {
         "accepts":"application/json"
       }
     }).then(
-      response => response.json()
-    ).then(
-      data => {
-        setPostData(data[0])
-      }
+      response => setPostData(response.data)
     )
   }, [])
 
