@@ -354,6 +354,16 @@
   margin-top: 100px;
 }
 
+#post-content {
+  width: 87vw;
+  font-family: "DM Serif Display", serif;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
 /* Contact */
 #contact {
   color: var(--website-accent-2);
