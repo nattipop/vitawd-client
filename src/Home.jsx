@@ -4,7 +4,6 @@ import image from "./pictures/Vitalogo 01 Artboard 1.svg"
 import { useState, useEffect } from "react";
 import Contact from "./Contact";
 
-
 const Home = () => {
   const [currentImage, setImage] = useState(animation);
   const [imageStyling, setImageStyle] = useState()

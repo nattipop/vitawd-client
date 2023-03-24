@@ -25,7 +25,7 @@ const Blog = () => {
         return (
           <div key={post._id} className="post-list-div">
             <Link to={`/blog/post/${post._id}`}><div className="row">
-              <div className="col-4">
+              <div className="col-4 thumbnail-container">
                 <img  className="post-thumbnail" src={post.cover_image_src} />
               </div>
               <div className="col-7 post-title">
