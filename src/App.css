@@ -412,12 +412,18 @@
 #success-popup {
   position: fixed;
   background-color: var(--website-theme);
-  top: 20vw;
+  top: 10vw;
   left: 30vw;
+  text-align: center;
   width: 40vw;
   padding: 2vw;
   font-size: 1vw;
   color: white;
+  box-shadow: 0px 3px 3px #1b291d42;
+}
+
+#success-popup button {
+  margin-top: 20px;
 }
 
 .text-input {
@@ -633,5 +639,20 @@
     padding-top: 90px;
     padding-bottom: 50px;
     height: auto;
+  }
+
+  #success-popup {
+    width: 70vw;
+    top: 35vw;
+    left: 15vw;
+    font-size: 10px;
+    padding: 10vw;
+  }
+
+  #success-popup button {
+    height: 40px;
+    width: 70px;
+    font-size: 20px;
+    padding: 0px;
   }
 }
