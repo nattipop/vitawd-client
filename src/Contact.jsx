@@ -95,7 +95,7 @@ const Contact = () => {
       </form>
       <div className="container text-center" style={{paddingTop: "3vw"}}>
         <h2>I would love to hear from you!</h2>
-        <h3>If you have any questions or would like more information on websites email me at natalie@vitawd.com</h3>
+        <h3>If you have any questions or would like more information<br/>on websites email me at natalie@vitawd.com</h3>
       </div>
       <div>{success ? (
         <div id="success-popup">
