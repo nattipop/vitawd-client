@@ -6,7 +6,10 @@ import axios from "axios";
 
 const Post = () => {
   const [postData, setPostData] = useState();
-  const { _id } = useParams()
+  const { _id } = useParams();
+  const postImages = {
+    GoodWebsite: "https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  }
 
   useEffect(() => {
     axios.get(`https://vita-web-design-api.herokuapp.com/api/post/${_id}`, {
@@ -20,7 +23,7 @@ const Post = () => {
       )
   }, []);
   
-  document.querySelector('[property="og:image"]').setAttribute("content", postData.cover_image_src)
+  document.querySelector('[property="og:image"]').setAttribute("content", postImages.GoodWebsite)
 
   return postData ? (
     <div className="container" id="individual-post">
