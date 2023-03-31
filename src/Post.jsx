@@ -18,13 +18,9 @@ const Post = () => {
     }).then(
       response => setPostData(response.data[0])
       )
-    }, []);
-    
-  useEffect(() => {
-    if(postData) {
-      document.querySelector('[property="og:image"]').setAttribute("content", postData.cover_image_src)
-    }
-  }, [postData])
+  }, []);
+  
+  document.querySelector('[property="og:image"]').setAttribute("content", postData.cover_image_src)
 
   return postData ? (
     <div className="container" id="individual-post">
