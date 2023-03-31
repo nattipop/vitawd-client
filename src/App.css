@@ -27,20 +27,21 @@
   color: white;
 }
 
-#navbar li {
+.nav-links {
   height: 64px;
-  width: 2vw;
+  width: auto;
   text-align: center;
-  padding: 10px 0px 5px;
+  padding: 10px 15px 5px;
 }
 
-#navbar li:hover {
+.nav-links:hover {
   background-color: var(--website-accent-2);
+  cursor: pointer;
 }
 
-#navbar ul {
-  list-style: none;
+.links-container {
   width: 40vw;
+  display: flex;
 }
 
 #nav-hamburger {
@@ -90,6 +91,16 @@
 
 #hamburger-dropdown li:hover {
   background-color: var(--website-accent-2);
+}
+
+#top-left-logo {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#top-left-logo:hover {
+  cursor: pointer;
 }
 
 /* Footer */

@@ -1,6 +1,6 @@
 import './App.css'
 import React, { useEffect, useState } from 'react';
-import { Routes, Route, Outlet, Link } from 'react-router-dom';
+import { Routes, Route, Outlet, Link, useNavigate } from 'react-router-dom';
 import Post from './Post';
 import Home from './Home';
 import Footer from './Footer';
@@ -14,6 +14,7 @@ const Blog = React.lazy(() => import("./Blog"));
 const Contact = React.lazy(() => import("./Contact"));
 
 function App() {
+  const navigate = useNavigate();
   const [clicked, setClicked] = useState(false);
   
   useEffect(() => {
@@ -54,22 +55,22 @@ function App() {
         } />
       </Routes>
       <nav id="navbar"> 
-        <img style={{position: "absolute", marginTop: "-25px", marginLeft: "10px"}} src={logo} width="90px" />
+        <img id="top-left-logo" src={logo} width="80px" onClick={() => navigate("/")} />
         <div className="flex-center">
-          <ul className='row'>
-            <li className='col'>
-              <Link to={"/"}>Home</Link>
-            </li>
-            <li className='col'>
-              <Link to={"/blog"}>Blog</Link>
-            </li>
-            <li className='col'>
-              <Link to={"/contact"}>Contact</Link>
-            </li>
-            <li className='col'>
-              <Link to={"/about"}>About</Link>
-            </li>
-          </ul>
+          <div className='row links-container'>
+            <Link to={"/"} className='col nav-links'>
+              Home
+            </Link>
+            <Link to={"/blog"} className='col nav-links'>
+              Blog
+            </Link>
+            <Link to={"/contact"} className='col nav-links'>
+              Contact
+            </Link>
+            <Link to={"/about"} className='col nav-links'>
+              About
+            </Link>
+          </div>
         </div>
       </nav>
       <div id="hamburger-dropdown">
