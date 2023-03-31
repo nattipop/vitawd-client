@@ -17,8 +17,16 @@ const Post = () => {
       }
     }).then(
       response => setPostData(response.data[0])
-    )
-  }, [])
+      )
+    }, []);
+    
+  useEffect(() => {
+    const FacebookImage = document.getElementById("facebook-image");
+
+    if(postData) {
+      FacebookImage.setAttribute("content", postData.cover_image_src)
+    }
+  }, [postData])
 
   return postData ? (
     <div className="container" id="individual-post">
