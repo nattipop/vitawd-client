@@ -21,10 +21,8 @@ const Post = () => {
     }, []);
     
   useEffect(() => {
-    const FacebookImage = document.getElementById("facebook-image");
-
     if(postData) {
-      FacebookImage.setAttribute("content", postData.cover_image_src)
+      document.getElementById("facebook-image").setAttribute("content", postData.cover_image_src)
     }
   }, [postData])
 
