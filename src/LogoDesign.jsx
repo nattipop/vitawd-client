@@ -11,7 +11,7 @@ const LogoDesign = () => {
             <div className="logo-display-flex">
               <img id="bradley-logo" src={bradley} />
             </div>
-            <h3>Two color logo - $300</h3>
+            <h3>Two color logo - $200</h3>
             <h3>Four logo variations</h3>
             <p>Can be used for your website and/or promotional products</p>
             <ul>
@@ -23,7 +23,7 @@ const LogoDesign = () => {
             <div className="logo-display-flex">
               <img id="handa-logo" src={hopeandanchor} />
             </div>
-            <h3>Three+ color logo - $400</h3>
+            <h3>Three+ color logo - $300</h3>
             <h3>Four logo variations</h3>
             <p>Can be used for your website and/or promotional products</p>
             <ul>
