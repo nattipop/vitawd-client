@@ -22,7 +22,7 @@ const Post = () => {
     
   useEffect(() => {
     if(postData) {
-      document.getElementById("facebook-image").setAttribute("content", postData.cover_image_src)
+      document.getElementById("facebook-img").setAttribute("content", postData.cover_image_src)
     }
   }, [postData])
 
