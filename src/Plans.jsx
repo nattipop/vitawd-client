@@ -24,7 +24,7 @@ const Plans = () => {
       plansData.map(plan => {
         return (
           <div className="col plan-div" key={plan._id}>
-            <img src={plan.icon_url} className="plan-icon" width="640" height="480" allow="autoplay"></img>
+            <img src={plan.icon_url} className="plan-icon"></img>
             <h2>{plan.plan_name} <span>{plan.price}</span></h2>
             <p>{plan.description}</p>
             <ul>
