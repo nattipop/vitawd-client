@@ -11,6 +11,7 @@ const Contact = () => {
   const [domain, setDomain] = useState(false);
   const [errorMessage, setErrorMessage] = useState(false);
   const [success, setSuccess] = useState();
+  const [additionalInfo, setAdditional] = useState("");
 
   const resetForm = () => {
     setFn("");
@@ -20,6 +21,7 @@ const Contact = () => {
     setService("");
     setDomain(false);
     setWebsite(false);
+    setAdditional("");
     document.getElementById("basic-website").checked = false;
     document.getElementById("custom-website").checked = false;
     document.getElementById("website-maintenance").checked = false;
@@ -41,7 +43,8 @@ const Contact = () => {
       business: bn,
       service: service,
       haveWebsite: website,
-      haveDomain: domain
+      haveDomain: domain,
+      additionalInfo: additionalInfo
     };
 
     axios.post("https://vita-web-design-api.herokuapp.com/api/new-email", {
@@ -87,6 +90,8 @@ const Contact = () => {
         </div>
         <h3><input onChange={() => setWebsite(!website)} className="form-checkbox" type="checkbox" checked={website} />I currently have a website</h3>
         <h3><input onChange={() => setDomain(!domain)} className="form-checkbox" type="checkbox" checked={domain}/>I own a domain that I would like to use for my website</h3>
+        <h3 style={{marginTop: "40px"}}>Anything else you'd like to add?</h3>
+        <textarea placeholder="Type any additional info here" className="text-input" id="additional-info" onChange={(e) => setAdditional(e.target.value)} type="text" />
         <h3 id="error-message">{errorMessage ? (
             `* ${errorMessage} *`
           ) : ""

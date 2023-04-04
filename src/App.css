@@ -487,6 +487,10 @@
   width: 17px;
   background-color: white;
 }
+
+#additional-info {
+  height: 80px;
+}
 /* Misc. */
 #website-plans {
   color: var(--website-accent);
