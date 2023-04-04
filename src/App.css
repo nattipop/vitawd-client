@@ -66,6 +66,14 @@
   display: none;
 }
 
+#email-me-nav {
+  position: absolute;
+  top: 20px;
+  left: 73vw;
+  font-size: 17px;
+  color: var(--website-accent-2);
+}
+
 @keyframes slidedown {
   from {
     margin-top: -300px;
@@ -121,6 +129,10 @@
   justify-content: center;
   width: 100vw;
   height: 200px;
+}
+
+.footer-columns p {
+  font-size: 20px;
 }
 
 /* Header */

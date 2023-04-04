@@ -72,6 +72,7 @@ function App() {
             </Link>
           </div>
         </div>
+        <h3 id="email-me-nav">natalie@vitawd.com | (715) 642-1146</h3>
       </nav>
       <div id="hamburger-dropdown">
         <ul>
