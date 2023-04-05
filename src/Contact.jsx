@@ -91,7 +91,7 @@ const Contact = () => {
         <h3><input onChange={() => setWebsite(!website)} className="form-checkbox" type="checkbox" checked={website} />I currently have a website</h3>
         <h3><input onChange={() => setDomain(!domain)} className="form-checkbox" type="checkbox" checked={domain}/>I own a domain that I would like to use for my website</h3>
         <h3 style={{marginTop: "40px"}}>Anything else you'd like to add?</h3>
-        <textarea placeholder="Type any additional info here" className="text-input" id="additional-info" onChange={(e) => setAdditional(e.target.value)} type="text" />
+        <textarea placeholder="Type any additional info here" value={additionalInfo} className="text-input" id="additional-info" onChange={(e) => setAdditional(e.target.value)} type="text" />
         <h3 id="error-message">{errorMessage ? (
             `* ${errorMessage} *`
           ) : ""
