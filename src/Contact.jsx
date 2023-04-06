@@ -48,7 +48,7 @@ const Contact = () => {
       haveWebsite: website,
       haveDomain: domain,
       additionalInfo: additionalInfo,
-      phone: phone
+      clientPhone: phone
     };
 
     console.log(data)
