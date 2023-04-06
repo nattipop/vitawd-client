@@ -12,6 +12,7 @@ const Contact = () => {
   const [errorMessage, setErrorMessage] = useState(false);
   const [success, setSuccess] = useState();
   const [additionalInfo, setAdditional] = useState("");
+  const [phone, setPhone] = useState("");
 
   const resetForm = () => {
     setFn("");
@@ -22,6 +23,7 @@ const Contact = () => {
     setDomain(false);
     setWebsite(false);
     setAdditional("");
+    setPhone("");
     document.getElementById("basic-website").checked = false;
     document.getElementById("custom-website").checked = false;
     document.getElementById("website-maintenance").checked = false;
@@ -44,7 +46,8 @@ const Contact = () => {
       service: service,
       haveWebsite: website,
       haveDomain: domain,
-      additionalInfo: additionalInfo
+      additionalInfo: additionalInfo,
+      phone: phone
     };
 
     axios.post("https://vita-web-design-api.herokuapp.com/api/new-email", {
@@ -68,6 +71,7 @@ const Contact = () => {
         <input onChange={(e) => setFn(e.target.value)} value={fn}className="text-input" placeholder="First Name" />
         <input onChange={(e) => setLn(e.target.value)} value={ln} className="text-input" placeholder="Last Name" />
         <input onChange={(e) => setEmail(e.target.value)} value={email} type="email" className="text-input" placeholder="Email" />
+        <input onChange={(e) => setPhone(e.target.value)} value={phone} className="text-input" placeholder="Phone Number" />
         <input onChange={(e) => setBn(e.target.value)} value={bn} className="text-input" placeholder="Business/Non-Profit Name" />
         <h3>Service you're interested in</h3>
         <div id="service-input">

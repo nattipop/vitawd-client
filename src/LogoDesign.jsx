@@ -1,7 +1,30 @@
 import hopeandanchor from "./pictures/Handa 01 Artboard 1.svg";
-import bradley from "./pictures/Untitled-7.png";
+import bradley from "./pictures/Bcc_black.png";
+import bradleyWhite from "./pictures/Bcc_white.png";
 
 const LogoDesign = () => {
+  const bringWhiteToFront = (e) => {
+    if(e.target.style.zIndex == "0"){
+      document.getElementById("bradley-logo").style.zIndex = "0"
+      return e.target.style.zIndex = "1";
+    }
+    if(e.target.style.zIndex = "1"){
+      document.getElementById("bradley-logo").style.zIndex = "1"
+      return e.target.style.zIndex = "0";
+    }
+  }
+
+  const bringBlackToFront = (e) => {
+    if(e.target.style.zIndex == "0"){
+      document.getElementById("bradley-logo-white").style.zIndex = "0"
+      return e.target.style.zIndex = "1";
+    }
+    if(e.target.style.zIndex = "1"){
+      document.getElementById("bradley-logo-white").style.zIndex = "1"
+      return e.target.style.zIndex = "0";
+    }
+  }
+
   return (
     <div id="logo-design-section">
       <h1 id="logo-title">Logo Design</h1>
@@ -9,7 +32,10 @@ const LogoDesign = () => {
         <div className="row">
           <div className="col two-color-logo">
             <div className="logo-display-flex">
-              <img id="bradley-logo" src={bradley} />
+              <img onClick={bringBlackToFront} id="bradley-logo" src={bradley} />
+            </div>
+            <div>
+              <img onClick={bringWhiteToFront} id="bradley-logo-white" src={bradleyWhite} />
             </div>
             <h3>Two color logo - $200</h3>
             <h3>Four logo variations</h3>
