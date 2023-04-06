@@ -671,11 +671,12 @@
 
   #bradley-logo-white {
     left: 20%;
-    margin-top: -240px;
+    margin-top: -280px;
   }
 
   #bradley-logo {
     margin-top: -100px;
+    left: -20px;
   }
 
   #footer {
@@ -724,5 +725,19 @@
     width: 70px;
     font-size: 20px;
     padding: 0px;
+  }
+}
+
+@media (max-width: 560px) {
+  #bradley-logo-white {
+    left: 20%;
+    margin-top: -200px;
+    outline: none !important;
+  }
+
+  #bradley-logo {
+    margin-top: -20px;
+    left: -20px;
+    outline: none !important;
   }
 }
