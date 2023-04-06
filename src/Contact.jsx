@@ -51,6 +51,8 @@ const Contact = () => {
       phone: phone
     };
 
+    console.log(data)
+
     axios.post("https://vita-web-design-api.herokuapp.com/api/new-email", {
       headers:{
         "Access-Control-Allow-Origin": "https://www.vitawd.com",
@@ -62,6 +64,10 @@ const Contact = () => {
       resetForm();
       setErrorMessage("");
       setSuccess("Your information has been submitted! I will reach out as soon as possible.")
+    }).catch((err) => {
+      if (err) {
+        setErrorMessage(err)
+      }
     })
   }
 
