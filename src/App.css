@@ -669,6 +669,15 @@
     padding-left: 0px;
   }
 
+  #bradley-logo-white {
+    left: 20%;
+    margin-top: -240px;
+  }
+
+  #bradley-logo {
+    margin-top: -100px;
+  }
+
   #footer {
     flex-direction: column;
     height: auto;

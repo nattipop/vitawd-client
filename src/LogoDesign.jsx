@@ -5,22 +5,28 @@ import bradleyWhite from "./pictures/Bcc_white.png";
 const LogoDesign = () => {
   const bringWhiteToFront = (e) => {
     if(e.target.style.zIndex == "0"){
-      document.getElementById("bradley-logo").style.zIndex = "0"
+      document.getElementById("bradley-logo").style.zIndex = "0";
+      document.getElementById("bradley-logo").style.outline = "none";
+      e.target.style.outline = "5px solid var(--website-theme)";
       return e.target.style.zIndex = "1";
     }
     if(e.target.style.zIndex = "1"){
       document.getElementById("bradley-logo").style.zIndex = "1"
+      e.target.style.outline = "none"
       return e.target.style.zIndex = "0";
     }
   }
 
   const bringBlackToFront = (e) => {
     if(e.target.style.zIndex == "0"){
-      document.getElementById("bradley-logo-white").style.zIndex = "0"
+      document.getElementById("bradley-logo-white").style.zIndex = "0";
+      document.getElementById("bradley-logo-white").style.outline = "none";
+      e.target.style.outline = "5px solid var(--website-theme)";
       return e.target.style.zIndex = "1";
     }
     if(e.target.style.zIndex = "1"){
       document.getElementById("bradley-logo-white").style.zIndex = "1"
+      e.target.style.outline = "none"
       return e.target.style.zIndex = "0";
     }
   }
