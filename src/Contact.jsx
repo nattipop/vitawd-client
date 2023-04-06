@@ -35,6 +35,7 @@ const Contact = () => {
     if(!fn) return setErrorMessage("First Name is required");
     if(!ln) return setErrorMessage("Last Name is required");
     if(!email) return setErrorMessage("Email is required");
+    if(!phone) return setErrorMessage("Phone Number is required");
     if(!bn) return setErrorMessage("Business/Non-Profit Name is required");
     if(!service) return setErrorMessage("Please select a service");
     
