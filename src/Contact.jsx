@@ -63,7 +63,7 @@ const Contact = () => {
       console.log(res);
       resetForm();
       setErrorMessage("");
-      setSuccess("Your information has been submitted! I will reach out as soon as possible.")
+      setSuccess("Your information has been submitted! I will call you as soon as possible.")
     }).catch((err) => {
       if (err) {
         setErrorMessage(err)
@@ -74,7 +74,7 @@ const Contact = () => {
   return (
     <div id="contact">
       <form id="contact-form">
-        <h2 className="text-center schedule-text">If you're interested in scheduling a meeting, fill in your info and I'll email you.</h2>
+        <h2 className="text-center schedule-text">If you're interested in scheduling a free consultation, fill in your info and I'll call you.</h2>
         <input onChange={(e) => setFn(e.target.value)} value={fn}className="text-input" placeholder="First Name" />
         <input onChange={(e) => setLn(e.target.value)} value={ln} className="text-input" placeholder="Last Name" />
         <input onChange={(e) => setEmail(e.target.value)} value={email} type="email" className="text-input" placeholder="Email" />
