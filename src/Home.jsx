@@ -36,7 +36,7 @@ const Home = () => {
           onClick={animateLogo}
            />
         <h1 className="header-front-page">
-          Building the perfect website to promote your brand.
+          Building websites in the Chetek, WI area.
         </h1>
         <div id="website-plans">
           <h1 className="text-center">Website Plans</h1>
