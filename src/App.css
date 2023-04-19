@@ -180,7 +180,7 @@
 }
 
 .about-me-background {
-  background-color: var(--website-accent-3);
+  background-color: var(--website-accent-2);
   height: 100vh;
   display: flex;
   align-items: center;
