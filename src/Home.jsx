@@ -4,21 +4,25 @@ import image from "./pictures/Vitalogo 01 Artboard 1.svg"
 import { useState, useEffect } from "react";
 import Contact from "./Contact";
 
+
 const Home = () => {
   const [currentImage, setImage] = useState(animation);
   const [imageStyling, setImageStyle] = useState()
-
+  
   useEffect(() => {
+    const contactHome = document.getElementById("contact");
+    contactHome.style.marginTop = "0px"
+    
     setTimeout(() => {
       setImage(image)
       setImageStyle({width: "300px", paddingTop: "15px", paddingLeft: "12px"})
     }, 2400)
   }, []);
-
+  
   const animateLogo = () => {
     setImage(animation);
     setImageStyle({});
-
+    
     setTimeout(() => {
       setImage(image)
       setImageStyle({width: "300px", paddingTop: "15px", paddingLeft: "12px"})
@@ -34,7 +38,7 @@ const Home = () => {
           className="hero-image"
           style={imageStyling} 
           onClick={animateLogo}
-           />
+          />
         <h1 className="header-front-page">
           Building websites in the Chetek, WI area.
         </h1>
@@ -42,10 +46,11 @@ const Home = () => {
           <h1 className="text-center">Website Plans</h1>
           <Plans />
         </div>
-        <Contact />
+        <Contact id="contact-homepage" />
       </div>
     </div>
   )
 }
+
 
 export default Home;

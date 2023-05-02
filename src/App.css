@@ -424,7 +424,8 @@
 #contact {
   color: var(--website-accent-2);
   height: auto;
-  padding: 5vw 0px 10vw;
+  padding: 0vw 0px 10vw;
+  margin-top: 64px;
 }
 
 #contact-form {
@@ -433,6 +434,11 @@
   justify-content: center;
   flex-direction: column;
   margin: 4vw;
+}
+
+.contact-icon {
+  margin-right: 10px;
+  margin-top: 5px;
 }
 
 .radio-input {
