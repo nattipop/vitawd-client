@@ -35,6 +35,7 @@ const Post = () => {
       <h3 className="time-stamp">Written by {postData.author} on {postData.time_stamp}</h3>
       <div className="container post-full-content">
         <pre id="post-content">{postData.content}</pre>
+        <p>{postData.photo_credit}</p>
       </div>
     </div>
   ) : (
