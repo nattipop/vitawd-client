@@ -3,6 +3,7 @@ import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 import keys from "../config/keys";
 import axios from "axios";
+import loadingImage from "./pictures/Animation.png"
 
 const Post = () => {
   const [postData, setPostData] = useState();
@@ -39,7 +40,7 @@ const Post = () => {
       </div>
     </div>
   ) : (
-    <img className="loading" src="https://cdn.pixabay.com/animation/2022/12/05/10/47/10-47-56-610_512.gif" />
+    <img className="loading" src={loadingImage} />
   )
 }
 
