@@ -361,6 +361,12 @@
   object-fit: cover;
 }
 
+.photo-credit {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
 #no-posts {
   height: 20vw;
   margin-top: 60px;
@@ -411,7 +417,8 @@
 }
 
 #post-content {
-  width: 87vw;
+  width: 98%;
+  margin-left: 20px;
   font-family: "DM Serif Display", serif;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
