@@ -115,11 +115,11 @@
 /* Footer */
 .footer-links {
   color: white;
-  text-decoration: underline;
 }
 
 .footer-links:hover {
-  color: var(--website-accent-2);
+  text-decoration: underline;
+  color: white;
 }
 
 #footer {
@@ -344,7 +344,7 @@
 /* Blog */
 .back-button {
   position: absolute;
-  font-size: 40px;
+  font-size: 20px;
   color: var(--website-accent-2);
 }
 
@@ -445,6 +445,22 @@
   justify-content: center;
   flex-direction: column;
   margin: 4vw;
+}
+
+.cta-strip {
+  background-color: var(--website-theme);
+  width: 102.5vw;
+  height: auto;
+  padding: 10px 0 10px;
+}
+
+.insta-link a {
+  color: var(--website-accent-2);
+}
+
+.insta-link a:hover {
+  text-decoration: underline;
+  color: var(--website-accent-2);
 }
 
 .contact-icon {
@@ -674,6 +690,20 @@
     float: none;
     width: 100%;
     margin: auto;
+  }
+
+  .post-content-text {
+    min-width: 80vw;
+  }
+
+  .back-button {
+    width: 100%;
+    text-align: center;
+    margin-top: -45px;
+  }
+
+  .cta-strip {
+    padding: 50px 0 50px;
   }
 
   .thumbnail-container {

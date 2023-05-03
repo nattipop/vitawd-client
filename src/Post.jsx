@@ -28,7 +28,7 @@ const Post = () => {
 
   return postData ? (
     <div className="container" id="individual-post">
-      <Link to="/blog" className="back-button">{`<`}</Link>
+      <Link to="/blog" className="back-button">Back</Link>
       <h1 className="post-full-title">{postData.title}</h1>
       <h3 className="time-stamp">Written by {postData.author} on {postData.time_stamp}</h3>
       <div className="container post-full-content">
