@@ -344,7 +344,6 @@
 /* Blog */
 .back-button {
   position: absolute;
-  margin-top: 16vw;
   font-size: 40px;
   color: var(--website-accent-2);
 }
@@ -399,6 +398,7 @@
 }
 
 .post-full-title {
+  margin-top: 100px;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -408,17 +408,21 @@
   font-size: 25px;
 }
 
-#post-cover-image {
-  width: 80vw;
-  height: 20vw;
+.post-image-styling {
+  float: left;
+  margin: 20px;
+  height: 400px;
+  width: 400px;
   object-fit: cover;
-  margin: 40px;
-  margin-top: 100px;
+}
+
+.post-content-text {
+  text-align: justify;
+  min-width: 500px;
 }
 
 #post-content {
-  width: 98%;
-  margin-left: 20px;
+  width: 100%;
   font-family: "DM Serif Display", serif;
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
@@ -664,6 +668,12 @@
 
   .post-list-div h1 {
     font-size: 30px;
+  }
+
+  .post-image-styling {
+    float: none;
+    width: 100%;
+    margin: auto;
   }
 
   .thumbnail-container {

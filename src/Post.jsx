@@ -29,13 +29,11 @@ const Post = () => {
   return postData ? (
     <div className="container" id="individual-post">
       <Link to="/blog" className="back-button">{`<`}</Link>
-      <div className="flex-center">
-        <img id="post-cover-image" src={postData.cover_image_src} width="100%" />
-      </div>
       <h1 className="post-full-title">{postData.title}</h1>
       <h3 className="time-stamp">Written by {postData.author} on {postData.time_stamp}</h3>
       <div className="container post-full-content">
-        <pre id="post-content">{postData.content}</pre>
+        <img className="post-image-styling" src={postData.cover_image_src} />
+        <p className="post-content-text" id="post-content">{postData.content}</p>
         <p className="photo-credit">{postData.photo_credit}</p>
       </div>
     </div>
