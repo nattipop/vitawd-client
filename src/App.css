@@ -195,6 +195,10 @@
   place-items: center;
 }
 
+.about-me-section a {
+  color: var(--website-theme) !important;
+}
+
 .about-me-text {
   max-width: 900px;
   min-width: 500px;
