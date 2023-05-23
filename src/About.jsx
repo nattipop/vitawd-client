@@ -1,4 +1,4 @@
-import headshot from "./pictures/headshot.jpeg"
+import headshot from "./pictures/IMG_3305.JPG"
 
 const About = () => {
   return (
