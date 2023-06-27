@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import phone from "./pictures/Untitled_Artwork 3.png";
+import phoneicon from "./pictures/Untitled_Artwork 3.png";
 import insta from "./pictures/Untitled_Artwork 2.png";
 import mail from "./pictures/Untitled_Artwork 1.png";
 
@@ -77,7 +77,7 @@ const Contact = () => {
   return (
     <div id="contact">
       <div className="row cta-strip">
-        <h2 className="col flex-center" style={{minWidth: "300px"}}><img src={phone} alt="Call" width="50px" /> (715) 642-1146</h2>
+        <h2 className="col flex-center" style={{minWidth: "300px"}}><img src={phoneicon} alt="Call" width="50px" /> (715) 642-1146</h2>
         <h2 className="col flex-center"><img className="contact-icon" src={mail} alt="Email" width="50px" />  natalie@vitawd.com</h2>
         <h2 className="col flex-center insta-link"><img className="contact-icon" src={insta} alt="Instagram" width="50px" /> <a href="https://www.instagram.com/vitawebdesign/">@vitawebdesign</a></h2>
       </div>
