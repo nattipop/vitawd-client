@@ -1,5 +1,5 @@
 import phone from "./pictures/Untitled_Artwork 3.png";
-import mail from "./pictures/Untitled_Artwork 2.png"
+import mail from "./pictures/Untitled_Artwork 1.png"
 
 const Footer = () => {
   return (
