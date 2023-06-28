@@ -4,6 +4,7 @@ import phoneicon from "./pictures/Untitled_Artwork 3.png";
 import insta from "./pictures/Untitled_Artwork 2.png";
 import mail from "./pictures/Untitled_Artwork 1.png";
 import OneSignal from 'react-onesignal';
+import https from 'https'
 
 const Contact = () => {
   const [fn, setFn] = useState("");
@@ -30,7 +31,6 @@ const Contact = () => {
       method: "POST",
       headers: headers
     };
-    var https = require('https');
     var req = https.request(options, function(res) {  
       res.on('data', function(data) {
         console.log("Response:");
