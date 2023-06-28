@@ -3,8 +3,6 @@ import axios from "axios";
 import phoneicon from "./pictures/Untitled_Artwork 3.png";
 import insta from "./pictures/Untitled_Artwork 2.png";
 import mail from "./pictures/Untitled_Artwork 1.png";
-import OneSignal from 'react-onesignal';
-import https from 'https'
 
 const Contact = () => {
   const [fn, setFn] = useState("");
@@ -18,32 +16,6 @@ const Contact = () => {
   const [success, setSuccess] = useState();
   const [additionalInfo, setAdditional] = useState("");
   const [phone, setPhone] = useState("");
-
-  var sendNotification = function(data) {
-    var headers = {
-      "Content-Type": "application/json; charset=utf-8",
-      "Authorization": "Basic NGEwMGZmMjItY2NkNy0xMWj"
-    };
-    var options = {
-      host: "onesignal.com",
-      port: 443,
-      path: "/api/v1/notifications",
-      method: "POST",
-      headers: headers
-    };
-    var req = axios.request(options, function(res) {  
-      res.on('data', function(data) {
-        console.log("Response:");
-        console.log(JSON.parse(data));
-      });
-    });
-    req.on('error', function(e) {
-      console.log("ERROR:");
-      console.log(e);
-    });
-    req.write(JSON.stringify(data));
-    req.end();
-  };
 
   const resetForm = () => {
     setFn("");
@@ -101,15 +73,6 @@ const Contact = () => {
         setErrorMessage(err)
       }
     })
-    var message = {
-      "app_id": "5eb5a37e-b458-11",
-      "name": "Identifier for SMS Message",
-      "sms_from": "+18449284102",
-      "contents": { en: "Welcome to Cat Facts!", es: "Bienvenidos a Factos del Gato" },
-      "sms_media_urls": ["https://cat.com/cat.jpg"],
-      "include_phone_numbers": ["+7156421146"]
-    };
-    sendNotification(message);
   }
 
   return (
