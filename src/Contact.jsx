@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import phoneicon from "./pictures/Untitled_Artwork 3.png";
 import insta from "./pictures/Untitled_Artwork 2.png";
