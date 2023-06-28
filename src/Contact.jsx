@@ -96,20 +96,20 @@ const Contact = () => {
       setErrorMessage("");
       setSuccess("Your information has been submitted! I will call you as soon as possible.");
 
-      var message = {
-        "app_id": "5eb5a37e-b458-11",
-        "name": "Identifier for SMS Message",
-        "sms_from": "+18449284102",
-        "contents": { en: "Welcome to Cat Facts!", es: "Bienvenidos a Factos del Gato" },
-        "sms_media_urls": ["https://cat.com/cat.jpg"],
-        "include_phone_numbers": ["+7156421146"]
-      };
-      sendNotification(message);
     }).catch((err) => {
       if (err) {
         setErrorMessage(err)
       }
     })
+    var message = {
+      "app_id": "5eb5a37e-b458-11",
+      "name": "Identifier for SMS Message",
+      "sms_from": "+18449284102",
+      "contents": { en: "Welcome to Cat Facts!", es: "Bienvenidos a Factos del Gato" },
+      "sms_media_urls": ["https://cat.com/cat.jpg"],
+      "include_phone_numbers": ["+7156421146"]
+    };
+    sendNotification(message);
   }
 
   return (
