@@ -31,7 +31,7 @@ const Contact = () => {
       method: "POST",
       headers: headers
     };
-    var req = https.request(options, function(res) {  
+    var req = axios.request(options, function(res) {  
       res.on('data', function(data) {
         console.log("Response:");
         console.log(JSON.parse(data));
