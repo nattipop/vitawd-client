@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import axios from "axios";
 import phoneicon from "./pictures/Untitled_Artwork 3.png";
 import insta from "./pictures/Untitled_Artwork 2.png";
@@ -17,12 +17,6 @@ const Contact = () => {
   const [success, setSuccess] = useState();
   const [additionalInfo, setAdditional] = useState("");
   const [phone, setPhone] = useState("");
-
-  useEffect(() => {
-    OneSignal.init({
-      appId: "dee2400f-e6dc-4755-b134-56d9769b5df7"
-    });
-  }, []);
 
   const resetForm = () => {
     setFn("");
@@ -74,6 +68,9 @@ const Contact = () => {
       resetForm();
       setErrorMessage("");
       setSuccess("Your information has been submitted! I will call you as soon as possible.")
+      OneSignal.init({
+        appId: "dee2400f-e6dc-4755-b134-56d9769b5df7",
+      });
     }).catch((err) => {
       if (err) {
         setErrorMessage(err)
