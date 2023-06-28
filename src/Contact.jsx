@@ -18,6 +18,33 @@ const Contact = () => {
   const [additionalInfo, setAdditional] = useState("");
   const [phone, setPhone] = useState("");
 
+  var sendNotification = function(data) {
+    var headers = {
+      "Content-Type": "application/json; charset=utf-8",
+      "Authorization": "Basic NGEwMGZmMjItY2NkNy0xMWj"
+    };
+    var options = {
+      host: "onesignal.com",
+      port: 443,
+      path: "/api/v1/notifications",
+      method: "POST",
+      headers: headers
+    };
+    var https = require('https');
+    var req = https.request(options, function(res) {  
+      res.on('data', function(data) {
+        console.log("Response:");
+        console.log(JSON.parse(data));
+      });
+    });
+    req.on('error', function(e) {
+      console.log("ERROR:");
+      console.log(e);
+    });
+    req.write(JSON.stringify(data));
+    req.end();
+  };
+
   const resetForm = () => {
     setFn("");
     setLn("");
@@ -67,10 +94,17 @@ const Contact = () => {
       console.log(res);
       resetForm();
       setErrorMessage("");
-      setSuccess("Your information has been submitted! I will call you as soon as possible.")
-      OneSignal.init({
-        appId: "dee2400f-e6dc-4755-b134-56d9769b5df7",
-      });
+      setSuccess("Your information has been submitted! I will call you as soon as possible.");
+
+      var message = {
+        "app_id": "5eb5a37e-b458-11",
+        "name": "Identifier for SMS Message",
+        "sms_from": "+18449284102",
+        "contents": { en: "Welcome to Cat Facts!", es: "Bienvenidos a Factos del Gato" },
+        "sms_media_urls": ["https://cat.com/cat.jpg"],
+        "include_phone_numbers": ["+7156421146"]
+      };
+      sendNotification(message);
     }).catch((err) => {
       if (err) {
         setErrorMessage(err)
