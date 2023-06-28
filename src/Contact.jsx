@@ -3,6 +3,7 @@ import axios from "axios";
 import phoneicon from "./pictures/Untitled_Artwork 3.png";
 import insta from "./pictures/Untitled_Artwork 2.png";
 import mail from "./pictures/Untitled_Artwork 1.png";
+import OneSignal from 'react-onesignal';
 
 const Contact = () => {
   const [fn, setFn] = useState("");
@@ -16,6 +17,12 @@ const Contact = () => {
   const [success, setSuccess] = useState();
   const [additionalInfo, setAdditional] = useState("");
   const [phone, setPhone] = useState("");
+
+  useEffect(() => {
+    OneSignal.init({
+      appId: "dee2400f-e6dc-4755-b134-56d9769b5df7"
+    });
+  }, []);
 
   const resetForm = () => {
     setFn("");
