@@ -12,6 +12,7 @@
     "@babel/node": "^7.20.7",
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
+    "@typeform/embed-react": "^2.30.0",
     "axios": "^1.3.4",
     "bootstrap": "^5.2.3",
     "jquery": "^3.6.3",
