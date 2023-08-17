@@ -10,9 +10,6 @@ const Home = () => {
   const [imageStyling, setImageStyle] = useState()
   
   useEffect(() => {
-    const contactHome = document.getElementById("contact");
-    contactHome.style.marginTop = "0px"
-    
     setTimeout(() => {
       setImage(image)
       setImageStyle({width: "300px", paddingTop: "15px", paddingLeft: "12px"})
@@ -46,7 +43,7 @@ const Home = () => {
           <h1 className="text-center">Website Plans</h1>
           <Plans />
         </div>
-        <Contact id="contact-homepage" />
+        <Contact/>
       </div>
     </div>
   )
