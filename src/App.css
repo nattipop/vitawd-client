@@ -436,21 +436,6 @@
 }
 
 /* Contact */
-#contact {
-  color: var(--website-accent-2);
-  height: auto;
-  padding: 0vw 0px 10vw;
-  margin-top: 64px;
-}
-
-#contact-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 4vw;
-}
-
 .cta-strip {
   background-color: var(--website-theme);
   width: 102.5vw;
