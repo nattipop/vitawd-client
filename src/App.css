@@ -770,7 +770,7 @@
   }
 
   #meeting-header {
-    margin-top: 9vw;
+    margin-top: 10vw !important;
   }
 }
 
