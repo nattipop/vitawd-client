@@ -768,6 +768,10 @@
     font-size: 20px;
     padding: 0px;
   }
+
+  #meeting-header {
+    margin-top: 7vw;
+  }
 }
 
 @media (max-width: 560px) {
