@@ -37,7 +37,10 @@ const Home = () => {
           onClick={animateLogo}
           />
         <h1 className="header-front-page">
-          Building websites in the Chetek, WI area.
+          Building websites for small businesses in Barron County.
+        </h1>
+        <h1 className="header-front-page" style={{padding: "40px", fontSize: "30px", color: "var(--website-theme)"}}>
+          Already a client? <a href="https://g.page/r/CbSpYGtNdySXEAI/review"><button style={{fontSize: "20px", backgroundColor: "var(--website-theme)"}}>Leave a review</button></a>
         </h1>
         <div id="website-plans">
           <h1 className="text-center">Website Plans</h1>
