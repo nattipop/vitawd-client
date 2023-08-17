@@ -21,7 +21,7 @@ function App() {
     if(clicked) {
       document.getElementById("hamburger-dropdown").style.display = "block";
     } else {
-      document.getElementById("hamburger-dropdown").style.display = "none";
+      document.ById("hamburger-dropdown").style.display = "none";
     }
   }, [clicked])
 

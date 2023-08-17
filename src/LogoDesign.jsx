@@ -11,7 +11,7 @@ const LogoDesign = () => {
       return e.target.style.zIndex = "1";
     }
     if(e.target.style.zIndex = "1"){
-      document.getElementById("bradley-logo").style.zIndex = "1"
+      document.ById("bradley-logo").style.zIndex = "1"
       e.target.style.outline = "none"
       return e.target.style.zIndex = "0";
     }
