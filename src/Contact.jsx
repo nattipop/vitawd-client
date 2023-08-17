@@ -1,7 +1,7 @@
-import { Sidetab } from '@typeform/embed-react'
+import { Widget } from '@typeform/embed-react'
 
 const Contact = () => {
-  return <Sidetab id="a5iLhJ7z" buttonText="click to open" />
+  return <Widget id="a5iLhJ7z" style={{ width: '50%' }} className="my-form" />
 }
 
 export default Contact;
