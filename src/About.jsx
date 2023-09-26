@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import headshot from "./pictures/IMG_3305 Small.png"
 
 const About = () => {
+  useEffect(() => {
+    document.title = "Vita Web Design | About";
+  }, [])
   return (
     <div className="about-me-background">
       <div className="about-me-section">

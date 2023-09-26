@@ -8,8 +8,9 @@ import Contact from "./Contact";
 const Home = () => {
   const [currentImage, setImage] = useState(animation);
   const [imageStyling, setImageStyle] = useState()
-  
+
   useEffect(() => {
+    document.title = "Vita Web Design | Home";
     setTimeout(() => {
       setImage(image)
       setImageStyle({width: "300px", paddingTop: "15px", paddingLeft: "12px"})

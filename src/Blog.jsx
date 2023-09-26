@@ -7,6 +7,7 @@ const Blog = () => {
   const [blogData, setBlogData] = useState()
 
     useEffect(() => {
+      document.title = "Vita Web Design | Blog";
       axios.get(`https://vita-web-design-api.herokuapp.com/api/posts`,{
         headers:{
           "Access-Control-Allow-Origin": "https://www.vitawd.com",
