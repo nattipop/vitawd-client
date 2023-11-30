@@ -650,10 +650,11 @@
 
 #placeholder-title {
   margin-left: 20px;
-  width: 450px;
+  width: 480px;
   text-align: left;
 }
 
 #placeholder-img {
   margin-left: 100px;
+  padding: 20px;
 }
