@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
-import keys from "../config/keys";
+import keys from "../../config/keys";
 import axios from "axios";
-import loadingImage from "./pictures/Animation.png"
+import loadingImage from "../pictures/Animation.png"
 
 const Post = () => {
   const [postData, setPostData] = useState();

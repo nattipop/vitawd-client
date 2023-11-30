@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import LogoDesign from "./LogoDesign";
-import keys from "../config/keys";
+import keys from "../../config/keys";
 import axios from "axios";
-import custom from "./pictures/Custom-website.png";
-import basic from "./pictures/Simple-website.png";
-import maintenance from "./pictures/maintenance.png";
+import custom from "../pictures/Custom-website.png";
+import basic from "../pictures/Simple-website.png";
+import maintenance from "../pictures/maintenance.png";
 
 const Plans = () => {
   const [plansData, setPlansData] = useState();
@@ -39,7 +39,7 @@ const Plans = () => {
           <div className="col plan-div" key={plan._id}>
             {renderImages(plan)}
             <h2>{plan.plan_name} <span>{plan.price}</span></h2>
-            <p>{plan.description}</p>
+            <p className="plan-description">{plan.description}</p>
             <ul>
               {plan.features.map(feature => {
                 return <li key={feature}>{feature}</li>

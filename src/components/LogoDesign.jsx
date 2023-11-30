@@ -1,6 +1,6 @@
-import hopeandanchor from "./pictures/Handa 01 Artboard 1.svg";
-import bradley from "./pictures/Bcc_black.png";
-import bradleyWhite from "./pictures/Bcc_white.png";
+import hopeandanchor from "../pictures/Handa 01 Artboard 1.svg";
+import bradley from "../pictures/Bcc_black.png";
+import bradleyWhite from "../pictures/Bcc_white.png";
 
 const LogoDesign = () => {
   const bringWhiteToFront = (e) => {

@@ -1,8 +1,9 @@
 import Plans from "./Plans";
-import animation from "./pictures/Animation.png"
-import image from "./pictures/Vitalogo 01 Artboard 1.svg"
+import animation from "../pictures/Animation.png"
+import image from "../pictures/Vitalogo 01 Artboard 1.svg"
 import { useState, useEffect } from "react";
 import Contact from "./Contact";
+import "../styles/Home.css";
 
 
 const Home = () => {
@@ -38,17 +39,20 @@ const Home = () => {
           onClick={animateLogo}
           />
         <h1 className="header-front-page">
-          Building websites for small businesses in Barron County.
+          Building websites for businesses in Barron County, WI
         </h1>
-        <h1 className="header-front-page" style={{padding: "40px", fontSize: "30px", color: "var(--website-theme)"}}>
-          Already a client? <a href="https://g.page/r/CbSpYGtNdySXEAI/review"><button style={{fontSize: "20px", backgroundColor: "var(--website-theme)"}}>Leave a review</button></a>
-        </h1>
-        <div id="website-plans">
-          <h1 className="text-center">Website Plans</h1>
-          <Plans />
-        </div>
-        <Contact/>
       </div>
+      <div className="review-section">
+        <h1 className="review-question">
+          Already a client?
+        </h1>
+        <a id="leave-a-review" href="https://g.page/r/CbSpYGtNdySXEAI/review"><button>Leave a review</button></a>
+      </div>
+      <div id="website-plans">
+        <h1 className="text-center">Website Plans</h1>
+        <Plans />
+      </div>
+      <Contact/>
     </div>
   )
 }

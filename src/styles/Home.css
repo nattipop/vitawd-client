@@ -1,0 +1,86 @@
+#header {
+  color: rgb(11, 26, 11);
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.review-section {
+  width: 100vw;
+  background-color: var(--website-theme);
+  padding: 20px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-question {
+  font-size: 30px;
+  font-family: var(--sub-title);
+  color: var(--website-accent-2);
+  margin-right: 15px;
+}
+
+#leave-a-review {
+  color: white;
+  font-family: var(--sub-title);
+  font-size: 25px;
+  margin: 5px;
+  margin-top: -1px;
+}
+
+#leave-a-review button {
+  padding: 10px;
+}
+
+#leave-a-review:hover button {
+  border-color: white;
+  background-color: #3e6a51;
+}
+
+.header-front-page {
+  width: 90vw;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 100px;
+  font-size: clamp(30px, 4vw, 40px);
+  padding: 2vw 5vw 0px;
+  color: var(--website-accent-2);
+  font-family: var(--sub-title);
+}
+
+#website-plans {
+  color: var(--website-accent);
+  background-color: var(--website-accent-2);
+  height: auto;
+  width: 100vw;
+  position: static;
+  padding: 10vw;
+}
+
+.plan-icon {
+  width: 200px;
+  margin: 30px;
+}
+
+.plan-div {
+  padding-top: 5vw;
+  display: block;
+  text-align: center;
+}
+
+.plan-div ul {
+  list-style-type: circle;
+}
+
+.plan-description {
+  font-size: 20px;
+  text-align: left;
+}
+
+.plan-div li {
+  font-size: 20px;
+  text-align: left;
+}
