@@ -4,13 +4,13 @@
   max-width: 100%;
   min-width: 100%;
   margin: 0 auto;
-  color: #f4fdff;
   --website-theme: #57886c;
   --website-accent: white;
   --website-accent-2: #1f271b;
   --website-accent-3: #1b291d;
   --title: "Yeseva One", serif;
   --sub-title: "Archivo Narrow", sans-serif;
+  font-family: var(--sub-title);
 }
 
 /* Footer */
@@ -640,21 +640,4 @@
     left: -20px;
     outline: none !important;
   }
-}
-
-#placeholder-background {
-  background-color: var(--website-accent-2);
-  height: 100vh;
-  padding-top: 200px;
-}
-
-#placeholder-title {
-  margin-left: 20px;
-  width: 480px;
-  text-align: left;
-}
-
-#placeholder-img {
-  margin-left: 100px;
-  padding: 20px;
 }
