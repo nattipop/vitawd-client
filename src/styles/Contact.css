@@ -1,0 +1,28 @@
+#contact {
+  padding-top: 100px;
+  align-content: center;
+  background-color: #f1f1f1;
+  text-align: center;
+  width: 100%;
+}
+
+#contact-header {
+  color: var(--website-accent-2);
+}
+
+#email-form {
+  width: 80%;
+}
+
+#phone-link {
+  color: var(--website-theme);
+}
+
+#phone-link:hover {
+  color: var(--website-theme);
+  text-decoration: underline;
+}
+
+#contact-top-links {
+  padding: 50px 150px;
+}

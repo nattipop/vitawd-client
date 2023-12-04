@@ -1,5 +1,6 @@
 import phone from "../pictures/Untitled_Artwork 3.png";
 import mail from "../pictures/Untitled_Artwork 1.png"
+import "../styles/Footer.css";
 
 const Footer = () => {
   return (
@@ -21,7 +22,8 @@ const Footer = () => {
           </div>
           <div className="col"></div>
         </div>
-        <p className="text-center" style={{color: "var(--website-accent-2)", paddingTop: "20px"}}>Website designed by Vita Web Design, LLC </p>
+        <p className="text-center" style={{color: "var(--website-accent-2)", paddingTop: "20px"}}>Website designed by Vita Web Design, LLC</p>
+        <p className="text-center" style={{color: "var(--website-accent-2)"}}>© Vita Web Design, LLC 2023</p>
       </div>
     </div>
   )

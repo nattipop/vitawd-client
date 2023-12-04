@@ -39,7 +39,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: var(--website-accent-2);
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -49,6 +49,11 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.current-page a {
+  text-decoration: underline var(--website-theme) 3px;
+  text-underline-offset: 5px;
 }
 
 @media (prefers-color-scheme: light) {

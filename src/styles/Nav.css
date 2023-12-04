@@ -73,13 +73,20 @@
   width: 180px;
 }
 
-#email-me-nav {
+#phone-nav {
   position: relative;
+  color: white;
   font-family: var(--sub-title);
-  font-size: 23px;
-  width: 180px;
-  margin-top: 15px;
-  margin-right: 10px;
+  font-size: 18px;
+  padding: 8px;
+  margin: 8px;
+  width: 140px;
+  background-color: var(--website-theme);
+}
+
+#phone-nav:hover {
+  border-color: white;
+  background-color: #3e6a51;
 }
 
 @keyframes slidedown {

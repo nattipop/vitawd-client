@@ -1,0 +1,19 @@
+#pricing {
+  padding-top: 100px;
+  background-color: #f1f1f1;
+  top: 0;
+  color: var(--website-accent-2);
+  height: 600px;
+  text-align: center;
+}
+
+.pricing-icons {
+  float: right;
+  margin: 10px 0px;
+}
+
+.pricing-text {
+  text-align: left;
+  font-size: 35px;
+  margin: 20px 0px;
+}

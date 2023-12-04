@@ -1,13 +1,13 @@
 [
   {
     "title": "Dominion Taxidermy",
-    "description": "",
+    "description": "White logo circle",
     "src": "https://res.cloudinary.com/dawteptkh/image/upload/v1701378731/DTwhitecircle_voabsw.jpg",
     "id": "1"
   },
   {
-    "title": "Dominion Taxidermy 2",
-    "description": "",
+    "title": "Dominion Taxidermy",
+    "description": "Black logo circle",
     "src": "https://res.cloudinary.com/dawteptkh/image/upload/v1701378736/DTblackcircle_xyqnyd.jpg",
     "id": "2"
   },
@@ -20,37 +20,37 @@
   {
     "title": "Radiant Light",
     "description": "",
-    "src": "https://res.cloudinary.com/dawteptkh/image/upload/v1701385693/RadiantLightSquare_m8cxor.png",
+    "src": "https://res.cloudinary.com/dawteptkh/image/upload/v1701385693/RadiantLightSquare_m8cxor.jpg",
     "id": "4"
   },
   {
-    "title": "SpringHill 1",
-    "description": "",
-    "src": "https://res.cloudinary.com/dawteptkh/image/upload/v1701378946/SQRoundRed_xruy5f.jpg",
+    "title": "Springhill Heritage Quilts",
+    "description": "Red logo - text above",
+    "src": "https://res.cloudinary.com/dawteptkh/image/upload/v1701636551/Untitled-23_zznmtw.jpg",
     "id": "5"
   },
   {
-    "title": "SpringHill 2",
-    "description": "",
-    "src": "https://res.cloudinary.com/dawteptkh/image/upload/v1701378907/SpringhillQuiltsBlack_viq1p1.jpg",
+    "title": "Springhill Heritage Quilts",
+    "description": "Black logo - text underneath",
+    "src": "https://res.cloudinary.com/dawteptkh/image/upload/v1701648051/Untitled-22_odti1p.jpg",
     "id": "6"
   },
   {
-    "title": "Vita Circle Logo",
-    "description": "",
-    "src": "https://res.cloudinary.com/dawteptkh/image/upload/v1701378671/icon_d34hls.png",
+    "title": "Vita Web Design",
+    "description": "Circle logo with leaves",
+    "src": "https://res.cloudinary.com/dawteptkh/image/upload/v1701378671/icon_d34hls.jpg",
     "id": "7"
   },
   {
-    "title": "Hope & Anchor",
-    "description": "",
-    "src": "https://res.cloudinary.com/dawteptkh/image/upload/v1701386858/H_A_01_Artboard_1_mvxsev.svg",
+    "title": "Hope & Anchor Coffeehouse",
+    "description": "Circle logo coffee cup",
+    "src": "https://res.cloudinary.com/dawteptkh/image/upload/v1701386858/H_A_01_Artboard_1_mvxsev.jpg",
     "id": "8"
   },
   {
-    "title": "Vita Web Design 2",
-    "description": "",
-    "src": "https://res.cloudinary.com/dawteptkh/image/upload/v1701389456/Vitalogo_01_Artboard_1_hvwsrk.svg",
+    "title": "Vita Web Design",
+    "description": "Vita letters",
+    "src": "https://res.cloudinary.com/dawteptkh/image/upload/v1701389456/Vitalogo_01_Artboard_1_hvwsrk.jpg",
     "id": "9"
   }
 ]

@@ -1,22 +1,25 @@
 import { useEffect } from "react";
-import headshot from "../pictures/IMG_3305 Small.png"
+import "../styles/About.css";
 
 const About = () => {
   useEffect(() => {
     document.title = "Vita Web Design | About";
+    window.scrollTo(0, 0);
   }, [])
   return (
-    <div className="about-me-background">
-      <div className="about-me-section">
-        <img className="text-right" id="natalie-headshot" src={headshot} />
-        <div className="about-me-text">
-          <h1>Hi, I'm Natalie</h1>
-          <h3>I'm a Web Developer and Designer located in Northern Wisconsin. My goal is to help businesses and non-profits in my area build an online presence.</h3>
+    <div id="about-section">
+      <div className="row">
+        <div className="col-5">
+          <img id="natalie-headshot" src="https://res.cloudinary.com/dawteptkh/image/upload/v1701645387/IMG_2027_tmp5pw.jpg" />
+        </div>
+        <div id="about-me-text" className="col">
+          <h1>Hi, I'm Natalie Poppe,</h1>
+          <h3>a Web Developer and Designer located in Northern Wisconsin.</h3>
           <br/>
-          <h3>I started Vita Web Design because I saw a need in my community for good websites. Many small businesses have websites that don't work properly and are outdated. My job is to show them the difference a good online presence can make.
+          <h3>I started Vita Web Design because I saw a need in my community for good websites. My goal is to show the small business owners in my area the difference a good online presence can make.
           </h3>
           <br/>
-          <h3>I have worked with HTML CSS and Javascript to build projects from scratch, as well as building with frameworks like <a href="https://blog.hubspot.com/website/react-js">React</a> and content management systems such as <a href="https://wordpress.org/">Wordpress.org</a>.</h3>
+          <h3>I have worked with HTML, CSS and Javascript to build projects from scratch, as well as building with frameworks like <a href="https://blog.hubspot.com/website/react-js">React</a> and content management systems such as <a href="https://wordpress.org/">Wordpress.org</a>.</h3>
           <br/>
         </div>
       </div>

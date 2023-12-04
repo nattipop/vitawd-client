@@ -1,0 +1,22 @@
+.footer-links {
+  color: var(--website-accent-2);
+}
+
+.footer-links:hover {
+  text-decoration: underline;
+  color: var(--website-accent-2);
+}
+
+#footer {
+  position: static;
+  background-color: #57886cb3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 200px;
+}
+
+.footer-columns p {
+  font-size: 20px;
+}
