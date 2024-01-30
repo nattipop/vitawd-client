@@ -3,17 +3,50 @@
   background-color: #f1f1f1;
   top: 0;
   color: var(--website-accent-2);
-  height: 600px;
+  height: auto;
   text-align: center;
 }
 
 .pricing-icons {
   float: right;
   margin: 10px 0px;
+  width: 80px;
 }
 
 .pricing-text {
   text-align: left;
-  font-size: 35px;
+  font-size: 30px;
   margin: 20px 0px;
+}
+
+.pricing-titles {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pricing-card {
+  background-color: white;
+  padding: 30px;
+  margin: 10px;
+}
+
+#domain-stuff {
+  padding: 0px 50px 100px;
+}
+
+#pricing-domain-background {
+  height: 200px;
+  width: 300px;
+}
+
+#pricing-domain-title {
+  position: static;
+  width: 100%;
+  text-align: center;
+  padding: 50px 50px;
+}
+
+#domain-description {
+  text-align: left;
 }

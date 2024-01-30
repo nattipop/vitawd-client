@@ -8,14 +8,18 @@ const About = () => {
   }, [])
   return (
     <div id="about-section">
-      <div className="row">
-        <div className="col-5">
-          <img id="natalie-headshot" src="https://res.cloudinary.com/dawteptkh/image/upload/v1701645387/IMG_2027_tmp5pw.jpg" />
-        </div>
-        <div id="about-me-text" className="col">
+      <div id="overlay"></div>
+      <div className="row text-center">
+        <div className="col" id="about-header">
           <h1>Hi, I'm Natalie Poppe,</h1>
           <h3>a Web Developer and Designer located in Northern Wisconsin.</h3>
-          <br/>
+        </div>
+      </div>
+      <div className="row container" id="about-main-body">
+        <div className="col" id="natalie-headshot">
+          <img src="https://res.cloudinary.com/dawteptkh/image/upload/v1704213076/IMG_2349_roe58d.jpg" />
+        </div>
+        <div id="about-me-text" className="col">
           <h3>I started Vita Web Design because I saw a need in my community for good websites. My goal is to show the small business owners in my area the difference a good online presence can make.
           </h3>
           <br/>

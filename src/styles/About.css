@@ -1,21 +1,53 @@
+#natalie-headshot img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  position: relative;
+}
+
 #natalie-headshot {
-  width: 400px;
-  padding: 30px;
+  z-index: 6;
+  float: left;
+}
+
+#about-main-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
 }
 
 #about-section {
-  background-color: #f1f1f1;
-  padding: 100px;
+  padding: 100px 100px 20px;
+  background-image: url("https://res.cloudinary.com/dawteptkh/image/upload/v1706569417/IMG_9617_ffwjao.jpg");
+  background-size: cover;
+  background-position: 0px -300px;
+  color: white;
 }
 
 #about-section a {
-  color: var(--website-theme) !important;
+  color: white !important;
+  z-index: 4;
+  text-decoration: underline 2px solid;
+}
+
+#about-header {
+  z-index: 6;
 }
 
 #about-me-text {
-  color: var(--website-accent-2);
   max-width: 600px;
   min-width: 500px;
   text-align: left;
   padding: 30px 0px;
+  z-index: 3;
+}
+#overlay {
+  width: 100%;
+  height: 720px;
+  position: absolute;
+  background-color: #1f271b9a;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
 }

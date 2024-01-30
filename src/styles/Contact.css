@@ -1,5 +1,6 @@
 #contact {
   padding-top: 100px;
+  padding-bottom: 100px;
   align-content: center;
   background-color: #f1f1f1;
   text-align: center;
@@ -25,4 +26,73 @@
 
 #contact-top-links {
   padding: 50px 150px;
+}
+
+.my-form {
+  height: 450px;
+  padding: 4vw;
+  width: 100%;
+}
+
+#facebook-img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  position: relative;
+}
+
+#instagram-img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  position: relative;
+}
+
+#facebook-text {
+  color: white;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f271b67;
+  margin-top: -200px;
+  position: absolute;
+}
+
+#facebook-text:hover {
+  cursor: pointer;
+  background-color: #1f271b25;
+  text-decoration: underline;
+}
+
+#instagram-text {
+  color: white;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f271b67;
+  margin-top: -200px;
+  position: absolute;
+}
+
+#instagram-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: #1f271b25;
+}
+
+.socials-row {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-div {
+  max-width: 200px;
+  margin: 0px 50px;
 }

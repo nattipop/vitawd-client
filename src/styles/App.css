@@ -67,3 +67,47 @@
   width: 100%;
   margin: auto;
 }
+
+/* MOBILE START */
+
+/* 2XL */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1288px;
+  }
+}
+
+/* XL */
+@media (max-width: 1288px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* L */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* M */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* S */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* XS */
+@media (max-width: 475px) {
+  .container {
+    max-width: 100%;
+  }
+}

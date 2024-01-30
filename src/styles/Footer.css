@@ -1,5 +1,6 @@
 .footer-links {
   color: var(--website-accent-2);
+  z-index: 18;
 }
 
 .footer-links:hover {
@@ -8,15 +9,17 @@
 }
 
 #footer {
-  position: static;
+  position: relative;
   background-color: #57886cb3;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100vw;
   height: 200px;
+  z-index: 20;
 }
 
 .footer-columns p {
   font-size: 20px;
+  z-index: 18;
 }

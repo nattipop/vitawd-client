@@ -22,8 +22,8 @@ const Footer = () => {
           </div>
           <div className="col"></div>
         </div>
-        <p className="text-center" style={{color: "var(--website-accent-2)", paddingTop: "20px"}}>Website designed by Vita Web Design, LLC</p>
-        <p className="text-center" style={{color: "var(--website-accent-2)"}}>© Vita Web Design, LLC 2023</p>
+        <p className="text-center" style={{color: "var(--website-accent-2)", paddingTop: "20px"}}>Website designed by Vita Web Design</p>
+        <p className="text-center" style={{color: "var(--website-accent-2)"}}>© Vita Web Design, LLC 2024</p>
       </div>
     </div>
   )

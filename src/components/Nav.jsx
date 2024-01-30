@@ -1,13 +1,12 @@
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router";
-import hamburger from "../pictures/Hamburger.png";
 import logo from "../pictures/Untitled_Artwork.png";
 import '../styles/Nav.css';
+import '../styles/Mobile.css'
 import { Link } from "react-router-dom";
 
 const Nav = () => {
   const navigate = useNavigate();
-  const [clicked, setClicked] = useState(false);
   const location = useLocation();
   const pages = Array.prototype.slice.call(document.getElementsByClassName("nav-links"));
 
@@ -25,15 +24,7 @@ const Nav = () => {
       default:
         return
     }
-  }, [location])
-
-  useEffect(() => {
-    if(clicked) {
-      document.getElementById("hamburger-dropdown").style.display = "block";
-    } else {
-      document.getElementById("hamburger-dropdown").style.display = "none";
-    }
-  }, [clicked])
+  }, [location]);
 
   return (
     <div>
@@ -56,24 +47,8 @@ const Nav = () => {
         </ul>
         <a href="tel:7156421146"><button id="phone-nav">(715) 642-1146</button></a>
       </nav>
-      <div id="hamburger-dropdown">
-        <ul>
-          <Link to={"/"} onClick={() => setClicked(false)}><li>
-            Home
-          </li></Link>
-          <Link to={"/contact"} onClick={() => setClicked(false)}><li>
-            Contact
-          </li></Link>
-          <Link to={"/about"} onClick={() => setClicked(false)}><li>
-            About
-          </li></Link>
-          <Link to={"/pricing"} onClick={() => setClicked(false)}><li>
-            Pricing
-          </li></Link>
-        </ul>
-      </div>
       <nav id="nav-hamburger">
-        <img onClick={() => setClicked(!clicked)} width="45px" src={hamburger} />
+        <Link to="/menu"><img id="hamburger-img" width="64px" src="https://res.cloudinary.com/dawteptkh/image/upload/v1702664413/menu_cx907e.png" /></Link>
       </nav>
     </div>
   )
