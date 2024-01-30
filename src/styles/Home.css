@@ -93,8 +93,8 @@
 }
 
 .roadmap-item {
-  min-width: 424px !important;
-  max-width: 424px !important;
+  min-width: 30vw !important;
+  max-width: 30vw !important;
 }
 
 #home-review {
@@ -235,7 +235,7 @@
 }
 
 /* M */
-@media (max-width: 768px) {
+@media (max-width: 974px) {
   .container {
     max-width: 640px;
   }
