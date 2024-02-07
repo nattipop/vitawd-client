@@ -17,6 +17,7 @@
 a {
   font-weight: 500;
   text-decoration: inherit;
+  color: white !important;
 }
 
 body {
@@ -44,7 +45,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: white;
 }
 button:focus,
 button:focus-visible {
@@ -62,10 +63,10 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a {
-    color: white;
+    color: white !important;
   }
   a:visited {
-    color: white;
+    color: white !important;
   }
   button {
     background-color: #f9f9f9;
