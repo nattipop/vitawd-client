@@ -3,7 +3,6 @@ import image from "../pictures/Vitalogo 01 Artboard 1.svg"
 import { useState, useEffect } from "react";
 import ImageSlider from  "./ImageSlider";
 import "../styles/Home.css";
-import { Link, renderMatches } from "react-router-dom";
 import logos from "../logos.json"
 
 
@@ -111,7 +110,7 @@ const Home = () => {
         <h1 id="home-review-header">
           Already a Client?
         </h1>
-        <a className="react-link" id="home-review-button" href="https://g.page/r/CbSpYGtNdySXEB0/review"><button>Leave a review</button></>
+        <a className="react-link" id="home-review-button" href="https://g.page/r/CbSpYGtNdySXEB0/review"><button>Leave a review</button></a>
       </div>
       <div id="logo-gallery" className="section">
         <h1>Logo Gallery</h1>
