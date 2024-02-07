@@ -7,6 +7,14 @@
   text-align: center;
 }
 
+#domain-description a {
+  color: var(--website-theme) !important;
+}
+
+#domain-description a:hover {
+  text-decoration: underline;
+}
+
 .pricing-icons {
   float: right;
   margin: 10px 0px;

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div id="footer">
       <div className="container">
-        <div className="row">
+        <div className="row" id="footer-row">
           <div className="col"></div>
           <div className="col footer-columns">
             <a className="footer-links" href="https://www.instagram.com/vitawebdesign/"><p>Instagram</p></a>

@@ -23,3 +23,13 @@
   font-size: 20px;
   z-index: 18;
 }
+
+@media (max-width: 850px) {
+  #footer {
+    height: auto;
+    padding: 40px 20px;
+  }
+  #footer-row {
+    flex-direction: column;
+  }
+}

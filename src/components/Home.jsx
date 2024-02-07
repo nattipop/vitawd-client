@@ -44,7 +44,7 @@ const Home = () => {
   }
   
   return (
-    <div>
+    <div id="home">
       <div id="hero-landscape" className="section">
         <img 
           src={currentImage}
