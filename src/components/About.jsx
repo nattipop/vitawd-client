@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import "../styles/About.css";
+import "../styles/Mobile.css"
 
 const About = () => {
   useEffect(() => {
@@ -16,10 +17,10 @@ const About = () => {
         </div>
       </div>
       <div className="row container" id="about-main-body">
-        <div className="col" id="natalie-headshot">
+        <div className="col-5" id="natalie-headshot">
           <img src="https://res.cloudinary.com/dawteptkh/image/upload/v1704213076/IMG_2349_roe58d.jpg" />
         </div>
-        <div id="about-me-text" className="col">
+        <div id="about-me-text" className="col-7">
           <h3>I started Vita Web Design because I saw a need in my community for good websites. My goal is to show the small business owners in my area the difference a good online presence can make.
           </h3>
           <br/>

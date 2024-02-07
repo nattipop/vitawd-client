@@ -96,3 +96,45 @@
   max-width: 200px;
   margin: 0px 50px;
 }
+
+/* MOBILE */
+/* 2XL */
+@media (max-width: 1536px) {
+}
+
+/* XL */
+@media (max-width: 1288px) {
+}
+
+/* L */
+@media (max-width: 1024px) {
+  .socials-row {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .socials-div {
+    margin: 10px;
+    padding: 0px;
+  }
+}
+
+/* M */
+@media (max-width: 768px) {
+}
+
+/* S */
+@media (max-width: 640px) {
+  .contact-container {
+    padding: 0px;
+  }
+
+  #email-form {
+    margin: 0px;
+    min-width: 100%;
+  }
+}
+
+/* XS */
+@media (max-width: 475px) {
+}

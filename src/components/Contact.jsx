@@ -28,7 +28,7 @@ const Contact = () => {
               </div></Link>
             </div>
             <div className='col socials-div'>
-              <img id="facebook-img" src="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/353664101_180168518338219_7245134603555226608_n.jpg?stp=dst-jpg_s600x600&_nc_cat=110&ccb=1-7&_nc_sid=3635dc&_nc_ohc=4VYZnYhmLPQAX-40qU5&_nc_ht=scontent-ord5-2.xx&oh=00_AfAycPpChBWfeTAPuVBHT3dUrK8_zL8hOVB31DcsAKsd0g&oe=65BCD4A4" alt=""/>
+              <img id="facebook-img" src="https://res.cloudinary.com/dawteptkh/image/upload/v1707321890/IMG_4278F04E118F-1_wczkqo.jpg" alt=""/>
               <Link to="https://www.facebook.com/profile.php?id=100090352163156"><div id='facebook-text'>
                 <h3>Facebook</h3>
               </div></Link>

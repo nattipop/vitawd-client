@@ -167,6 +167,24 @@
   background-color: #3e6a51;
 }
 
+#regular-grid {
+  padding: 0px 30px;
+  display: none;
+}
+
+.reg-grid-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.reg-grid-logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 #logo-gallery h1 {
   text-align: center;
   padding: 50px;
@@ -182,11 +200,15 @@
   justify-content: center;
   align-items: center;
   padding: 0px;
+  position: relative;
 }
 
 .slider-arrows {
   color: var(--website-theme);
+  min-width: 100px;
+  max-width: 100px;
   position: absolute;
+  padding: 20px;
 }
 
 .slider-arrows:hover {
@@ -195,11 +217,11 @@
 }
 
 #forward-arrow {
-  left: 86vw;
+  left: calc(100vw - 100px);
 }
 
 #back-arrow {
-  left: 4vw;
+  left: 0px;
 }
 
 .slider-current-images {
@@ -223,6 +245,9 @@
   color: var(--website-accent-2);
 }
 
+@media (max-width: 1200px) {
+}
+
 @media (max-width: 1024px) {
   .container {
     max-width: 768px;
@@ -231,6 +256,15 @@
   .roadmap-item {
     min-width: 290px !important;
     max-width: 290px !important;
+  }
+
+  #regular-grid {
+    display: flex;
+    margin: 0px 100px;
+  }
+
+  #img-slider-div {
+    display: none;
   }
 }
 
@@ -271,6 +305,12 @@
 
   #home-about-button {
     margin: auto;
+  }
+}
+
+@media (max-width: 740px) {
+  #regular-grid {
+    margin: 0px 30px;
   }
 }
 

@@ -4,12 +4,6 @@ const ImageSlider = ({ logos }) => {
   let [currentIndex, setCurrentIndex] = useState(0);
   return (
     <div id="img-slider-div">
-      <h1 className="slider-arrows" id="back-arrow" onClick={() => {
-        if(currentIndex === 0) {
-          return setCurrentIndex(logos.length - 3)
-        }
-        return setCurrentIndex(currentIndex - 3)
-      }}>{"<"}</h1>
       <div className="row" id="slider-row">
         <div className="col slider-images-divs">
           <img className="slider-current-images" src={logos[currentIndex].src} alt="" title={logos[currentIndex].title} />
@@ -27,12 +21,20 @@ const ImageSlider = ({ logos }) => {
           <p className="logo-desc">{logos[currentIndex + 2].description}</p>
         </div>
       </div>
-      <h1 className="slider-arrows" id="forward-arrow" onClick={() => {
-        if(currentIndex === (logos.length - 3)) {
-          return setCurrentIndex(0)
-        }
-        return setCurrentIndex(currentIndex + 3)
-        }}>{">"}</h1>
+      <div id="arrows-div">
+        <h1 className="slider-arrows" id="back-arrow" onClick={() => {
+          if(currentIndex === 0) {
+            return setCurrentIndex(logos.length - 3)
+          }
+          return setCurrentIndex(currentIndex - 3)
+        }}>{"<"}</h1>
+        <h1 className="slider-arrows" id="forward-arrow" onClick={() => {
+          if(currentIndex === (logos.length - 3)) {
+            return setCurrentIndex(0)
+          }
+          return setCurrentIndex(currentIndex + 3)
+          }}>{">"}</h1>
+      </div>
     </div>
   )
 }

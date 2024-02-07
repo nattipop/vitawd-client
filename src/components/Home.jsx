@@ -3,7 +3,7 @@ import image from "../pictures/Vitalogo 01 Artboard 1.svg"
 import { useState, useEffect } from "react";
 import ImageSlider from  "./ImageSlider";
 import "../styles/Home.css";
-import { Link } from "react-router-dom";
+import { Link, renderMatches } from "react-router-dom";
 import logos from "../logos.json"
 
 
@@ -30,6 +30,18 @@ const Home = () => {
     }, 2400);
     return
   };
+
+  const renderLogos = () => {
+    return logos.map(logo => {
+      return (
+        <div key={logo.id} id={logo.title} className="col reg-grid-logo-box">
+          <img className="reg-grid-img" src={logo.src} alt="" title={logo.title} />
+          <h3 className="logo-title">{logo.title}</h3>
+          <p className="logo-desc">{logo.description}</p>
+        </div>
+      )
+    })
+  }
   
   return (
     <div>
@@ -103,6 +115,9 @@ const Home = () => {
       </div>
       <div id="logo-gallery" className="section">
         <h1>Logo Gallery</h1>
+        <div id="regular-grid" className="row">
+          {renderLogos()}
+        </div>
         <ImageSlider logos={logos} />
       </div>
     </div>

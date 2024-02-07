@@ -50,3 +50,53 @@
 #domain-description {
   text-align: left;
 }
+
+/* MOBILE */
+/* 2XL */
+@media (max-width: 1536px) {
+}
+
+/* XL */
+@media (max-width: 1288px) {
+}
+
+/* L */
+@media (max-width: 1024px) {
+  #all-info-row {
+    flex-direction: column;
+  }
+}
+
+/* M */
+@media (max-width: 798px) {
+  #domain-img-col {
+    min-width: 100%;
+  }
+
+  #domain-desc-col {
+    min-width: 100%;
+    padding: 30px;
+  }
+
+  #domain-description {
+    text-align: center;
+  }
+
+  #all-info-div {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .pricing-card {
+    margin: 20px;
+    max-width: calc(100vw - 40px);
+  }
+}
+
+/* S */
+@media (max-width: 640px) {
+}
+
+/* XS */
+@media (max-width: 475px) {
+}
