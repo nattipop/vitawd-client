@@ -11,6 +11,10 @@ a {
   color: white !important;
 }
 
+a:visited {
+  color: white !important;
+}
+
 #hero-img:hover {
   cursor: pointer;
 }
