@@ -71,3 +71,12 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@media only screen and (max-width: 800px) and (min-width: 320px) {
+  a {
+    color: white !important;
+  }
+  a:visited {
+    color: white !important;
+  }
+}
