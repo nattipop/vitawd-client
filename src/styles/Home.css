@@ -132,6 +132,10 @@ a:visited {
   margin-top: -1px;
 }
 
+#home-review-button button {
+  color: white !important;
+}
+
 #pricing-home-link {
   color: white !important;
 }
