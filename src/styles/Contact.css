@@ -16,11 +16,11 @@
 }
 
 #phone-link {
-  color: var(--website-theme);
+  color: var(--website-theme) !important;
 }
 
 #phone-link:hover {
-  color: var(--website-theme);
+  color: var(--website-theme) !important;
   text-decoration: underline;
 }
 
