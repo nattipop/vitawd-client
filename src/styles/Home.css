@@ -7,6 +7,14 @@
   overflow: hidden !important;
 }
 
+.react-link {
+  color: white !important;
+}
+
+.pricing-link {
+  color: var(--website-theme) !important;
+}
+
 a {
   color: white !important;
 }

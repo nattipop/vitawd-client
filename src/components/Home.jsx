@@ -60,14 +60,14 @@ const Home = () => {
         <h1 id="home-pricing-header">
           Interested in a website?
         </h1>
-        <Link id="home-pricing-button" to="/pricing"><button>Check out my pricing</button></Link>
+        <Link className="react-link" id="home-pricing-button" to="/pricing"><button>Check out my pricing</button></Link>
       </div>
       <div id="home-about" className="section">
         <div className="container">
           <div className="row">
             <div className="col" id="get-to-know">
               <h1 id="home-about-header">Get to know the designer</h1>
-              <Link to="/about"><button id="home-about-button">Learn more about Natalie</button></Link>
+              <Link className="react-link" to="/about"><button id="home-about-button">Learn more about Natalie</button></Link>
             </div>
             <div className="col" id="home-about-img-col">
               <img id="home-about-img" src="https://res.cloudinary.com/dawteptkh/image/upload/v1706569008/IMG_2349_alcun5.jpg" alt="" />
@@ -93,7 +93,7 @@ const Home = () => {
             </div>
             <div className="col roadmap-text" id="quote-roadmap">
               <h2>Get a quote</h2>
-              <p className="roadmap-p">I will send you a quote for the cost of your website (see how I price my jobs <Link to="/pricing">here</Link>). We will set goals and expectations for the completion of your site.</p>
+              <p className="roadmap-p">I will send you a quote for the cost of your website (see how I price my jobs <Link className="react-link" to="/pricing">here</Link>). We will set goals and expectations for the completion of your site.</p>
             </div>
           </div>
           <div className="col roadmap-item row" id="roadmap-work">
@@ -111,7 +111,7 @@ const Home = () => {
         <h1 id="home-review-header">
           Already a Client?
         </h1>
-        <Link id="home-review-button" to="https://g.page/r/CbSpYGtNdySXEB0/review"><button>Leave a review</button></Link>
+        <Link className="react-link" id="home-review-button" to="https://g.page/r/CbSpYGtNdySXEB0/review"><button>Leave a review</button></Link>
       </div>
       <div id="logo-gallery" className="section">
         <h1>Logo Gallery</h1>
