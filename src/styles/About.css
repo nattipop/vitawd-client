@@ -10,6 +10,21 @@
   float: left;
 }
 
+#bible-verse {
+  position: relative;
+  z-index: 12;
+  max-width: 100%;
+  margin: 100px;
+}
+
+#bible-verse h1 {
+  border: 3px white solid;
+  border-radius: 4px;
+  width: 100%;
+  padding: 50px;
+  margin: auto;
+}
+
 #about-main-body {
   display: flex;
   justify-content: center;
@@ -17,8 +32,20 @@
   margin: 20px;
 }
 
+#about-main {
+  background-color: var(--website-accent-2);
+  position: relative;
+  z-index: 12;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px;
+}
+
 #about-section {
-  padding: 100px 100px;
   background-image: url("https://res.cloudinary.com/dawteptkh/image/upload/v1706569417/IMG_9617_ffwjao.jpg");
   background-size: cover;
   background-position: 0px -300px;
@@ -69,10 +96,6 @@
   .mobile-form {
     max-height: 350px;
   }
-
-  #about-section {
-    padding: 100px 50px 25px 50px;
-  }
 }
 
 @media (max-width: 1150px) {
@@ -115,15 +138,15 @@
   #about-me-text {
     min-width: 100%;
   }
+
+  #bible-verse {
+    margin: 100px 20px;
+  }
 }
 
 /* xs */
 @media (max-width: 475px) {
   #about-main-body {
     padding: 0px;
-  }
-
-  #about-section {
-    padding: 100px 20px 0px 20px;
   }
 }
