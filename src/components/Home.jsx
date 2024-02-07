@@ -66,7 +66,7 @@ const Home = () => {
           <div className="row">
             <div className="col" id="get-to-know">
               <h1 id="home-about-header">Get to know the designer</h1>
-              <a className="react-link" href="https://www.vitawd.com/about"><button id="home-about-button">Learn more about Natalie</button></a>
+              <a href="https://www.vitawd.com/about"><button id="home-about-button">Learn more about Natalie</button></a>
             </div>
             <div className="col" id="home-about-img-col">
               <img id="home-about-img" src="https://res.cloudinary.com/dawteptkh/image/upload/v1706569008/IMG_2349_alcun5.jpg" alt="" />
@@ -92,7 +92,7 @@ const Home = () => {
             </div>
             <div className="col roadmap-text" id="quote-roadmap">
               <h2>Get a quote</h2>
-              <p className="roadmap-p">I will send you a quote for the cost of your website (see how I price my jobs <a className="react-link" href="https://www.vitawd.com/pricing">here</a>). We will set goals and expectations for the completion of your site.</p>
+              <p className="roadmap-p">I will send you a quote for the cost of your website (see how I price my jobs <a id="pricing-home-link" href="https://www.vitawd.com/pricing">here</a>). We will set goals and expectations for the completion of your site.</p>
             </div>
           </div>
           <div className="col roadmap-item row" id="roadmap-work">
@@ -110,7 +110,7 @@ const Home = () => {
         <h1 id="home-review-header">
           Already a Client?
         </h1>
-        <a className="react-link" id="home-review-button" href="https://g.page/r/CbSpYGtNdySXEB0/review"><button>Leave a review</button></a>
+        <a id="home-review-button" href="https://g.page/r/CbSpYGtNdySXEB0/review"><button>Leave a review</button></a>
       </div>
       <div id="logo-gallery" className="section">
         <h1>Logo Gallery</h1>
