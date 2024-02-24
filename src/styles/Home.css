@@ -137,7 +137,11 @@ a:visited {
 }
 
 #pricing-home-link {
-  color: white !important;
+  color: var(--website-theme) !important;
+}
+
+#pricing-home-link:hover {
+  text-decoration: underline;
 }
 
 #home-review-button button {

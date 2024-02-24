@@ -28,11 +28,12 @@ const About = () => {
             <img src="https://res.cloudinary.com/dawteptkh/image/upload/v1704213076/IMG_2349_roe58d.jpg" />
           </div>
           <div id="about-me-text" className="col-7">
-            <h3>I started Vita Web Design because I saw a need for websites that accurately reflect the businesses in my community. My goal is to make your online presence complement the quality of your business, and to build a website that caters to your specific needs.
+            <h3>I started Vita Web Design because I believe a good website is vital to promoting a business. My goal is to build a website that complements the quality of your business while catering to your specific needs.
             </h3>
             <br/>
             <h3>I have worked with HTML, CSS and Javascript to build projects from scratch, as well as building with frameworks like <a href="https://blog.hubspot.com/website/react-js">React</a> and content management systems such as <a href="https://wordpress.org/">Wordpress.org</a>.</h3>
             <br/>
+            <h3></h3>
           </div>
         </div>
       </div>
