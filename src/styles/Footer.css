@@ -1,5 +1,5 @@
 .footer-links {
-  color: white;
+  color: white !important;
   z-index: 18;
 }
 
@@ -22,6 +22,7 @@
 .footer-columns p {
   font-size: 20px;
   z-index: 18;
+  color: white;
 }
 
 @media (max-width: 850px) {
