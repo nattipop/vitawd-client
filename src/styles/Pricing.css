@@ -7,11 +7,19 @@
   text-align: center;
 }
 
-#domain-description a {
+#pricing-link-one {
   color: var(--website-theme) !important;
 }
 
-#domain-description a:hover {
+#pricing-link-two {
+  color: var(--website-theme) !important;
+}
+
+#pricing-link-one:hover {
+  text-decoration: underline;
+}
+
+#pricing-link-two:hover {
   text-decoration: underline;
 }
 
@@ -55,7 +63,7 @@
   padding: 50px 50px;
 }
 
-#domain-description {
+.domain-description {
   text-align: left;
 }
 

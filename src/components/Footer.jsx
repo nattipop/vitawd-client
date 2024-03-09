@@ -15,7 +15,7 @@ const Footer = () => {
             <a className="footer-links" href="https://www.facebook.com/profile.php?id=100090352163156"><p>Facebook</p></a>
           </div>
           <div className="col footer-columns" style={{minWidth: "200px"}}>
-            <p><img src={phone} alt="Call" width="30px" /> (715) 642-1146</p>
+            <p><img src={phone} alt="Call" width="30px" /> <a href="tel:7156421146">(715) 642-1146</a></p>
           </div>
           <div className="col footer-columns" style={{minWidth: "250px"}}>
             <p><img src={mail} alt="Email" width="30px" /> natalie@vitawd.com</p>

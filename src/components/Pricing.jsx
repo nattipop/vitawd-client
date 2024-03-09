@@ -43,7 +43,8 @@ const Pricing = () => {
             <img id="pricing-domain-background" src="https://res.cloudinary.com/dawteptkh/image/upload/v1702577761/pexels-photomix-company-218717_bdh066.jpg" alt="" width="100%" />
           </div>
           <div className="col" id="domain-desc-col">
-            <h3 id="domain-description">Every website needs a good domain name. I use <Link className="pricing-link" to="namecheap.com/domains">Namecheap</Link> for all my domains and custom emails. Click <Link className="pricing-link" to="https://www.namecheap.com/domains/domain-definition-what-is-a-domain-name/">here</Link> to learn more about what a domain is and why you need one.</h3>
+            <h3 className="domain-description">Every website needs a good domain name. I use <Link id="pricing-link-one" to="namecheap.com/domains">Namecheap</Link> for all my domains and custom emails. Click <Link id="pricing-link-two" to="https://www.namecheap.com/domains/domain-definition-what-is-a-domain-name/">here</Link> to learn more about what a domain is and why you need one.</h3>
+            <h3 className="domain-description">I offer domain renewal packages! Get a discount when you update your website each time your domain renews.</h3>
           </div>
         </div>
       </div>

@@ -66,6 +66,7 @@ a:visited {
 #home-pricing-button button {
   padding: 10px 15px;
   color: white !important;
+  background-color: var(--website-accent-2);
 }
 
 #home-pricing-button:hover button {
@@ -134,6 +135,7 @@ a:visited {
 
 #home-review-button button {
   color: white !important;
+  background-color: var(--website-accent-2);
 }
 
 #pricing-home-link {

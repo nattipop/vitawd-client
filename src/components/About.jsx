@@ -12,6 +12,9 @@ const About = () => {
       <div id="overlay"></div>
         <div id="bible-verse">
           <h1>
+            "Vita" (Pronounced vee • tuh) is the Latin word for "life"
+            <br/>
+            <br/>
             "In Him was life, and the life was the light of men. The light shines in the darkness, and the darkness has not overcome it."
             <br/>
             <br/>
