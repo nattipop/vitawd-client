@@ -18,7 +18,7 @@ const Footer = () => {
             <p><img src={phone} alt="Call" width="30px" /> <a href="tel:7156421146">(715) 642-1146</a></p>
           </div>
           <div className="col footer-columns" style={{minWidth: "250px"}}>
-            <p><img src={mail} alt="Email" width="30px" /> natalie@vitawd.com</p>
+            <p><img src={mail} alt="Email" width="30px" /> <a href="mailto:natalie@vitawd.com">natalie@vitawd.com</a></p>
           </div>
           <div className="col"></div>
         </div>
