@@ -192,74 +192,18 @@ a:visited {
   background-color: #3e6a51;
 }
 
-#regular-grid {
-  padding: 0px 30px;
-  display: none;
-}
-
-.reg-grid-img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-}
-
-.reg-grid-logo-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
 #logo-gallery h1 {
   text-align: center;
   padding: 50px;
   color: var(--website-accent-2);
 }
 
-#slider-row {
-  overflow: hidden !important;
-}
-
 #img-slider-div {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px;
+  padding: 0px 0px 100px 0px;
   position: relative;
-}
-
-.slider-arrows {
-  color: var(--website-theme);
-  min-width: 100px;
-  max-width: 100px;
-  position: absolute;
-  padding: 20px;
-}
-
-.slider-arrows:hover {
-  cursor: pointer;
-  color: var(--website-accent-2);
-}
-
-#forward-arrow {
-  left: calc(100vw - 100px);
-}
-
-#back-arrow {
-  left: 0px;
-}
-
-.slider-current-images {
-  max-width: 250px;
-  min-width: 250px;
-  height: 250px;
-  object-fit: cover;
-}
-
-.slider-images-divs {
-  padding: 20px;
-  margin: 20px;
-  height: 400px;
 }
 
 .logo-title {
@@ -281,15 +225,6 @@ a:visited {
   .roadmap-item {
     min-width: 290px !important;
     max-width: 290px !important;
-  }
-
-  #regular-grid {
-    display: flex;
-    margin: 0px 100px;
-  }
-
-  #img-slider-div {
-    display: none;
   }
 }
 
@@ -330,12 +265,6 @@ a:visited {
 
   #home-about-button {
     margin: auto;
-  }
-}
-
-@media (max-width: 740px) {
-  #regular-grid {
-    margin: 0px 30px;
   }
 }
 

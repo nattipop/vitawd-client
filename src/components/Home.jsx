@@ -3,7 +3,6 @@ import image from "../pictures/Vitalogo 01 Artboard 1.svg"
 import { useState, useEffect } from "react";
 import ImageSlider from  "./ImageSlider";
 import "../styles/Home.css";
-import logos from "../logos.json"
 
 
 const Home = () => {
@@ -114,10 +113,7 @@ const Home = () => {
       </div>
       <div id="logo-gallery" className="section">
         <h1>Logo Gallery</h1>
-        <div id="regular-grid" className="row">
-          {renderLogos()}
-        </div>
-        <ImageSlider logos={logos} />
+        <ImageSlider />
       </div>
     </div>
   )
