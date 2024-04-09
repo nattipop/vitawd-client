@@ -31,12 +31,11 @@ const About = () => {
           <h1>Hi, I'm Natalie Poppe,</h1>
           <h3>a Web Developer and Designer located in Northern Wisconsin.</h3>
         </div>
-        <div className="row container" id="about-main-body">
-          <div className="col-5" id="natalie-headshot">
+        <div id="about-main-body">
+          <div id="natalie-headshot">
             <img src="https://res.cloudinary.com/dawteptkh/image/upload/v1704213076/IMG_2349_roe58d.jpg" />
           </div>
-          <div id="about-me-text" className="col-7">
-            <h3>
+            <h3 id="about-me-text">
               I started Vita Web Design because I believe a good website is <i>vital</i> to promoting a business. My goal is to build a website that
               complements the quality of your business while catering to your
               specific needs.
@@ -49,9 +48,6 @@ const About = () => {
               content management systems such as{" "}
               <a href="https://wordpress.org/">Wordpress.org</a>.
             </h3>
-            <br />
-            <h3></h3>
-          </div>
         </div>
       </div>
     </div>

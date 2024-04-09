@@ -1,13 +1,13 @@
 #natalie-headshot img {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
-  position: relative;
 }
 
 #natalie-headshot {
   z-index: 6;
   float: left;
+  margin: 0px 20px 5px 0px;
 }
 
 #bible-verse {
@@ -27,23 +27,13 @@
 }
 
 #about-main-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 20px;
 }
 
 #about-main {
   background-color: var(--website-accent-2);
-  position: relative;
   z-index: 12;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  padding: 50px;
+  padding: 100px;
 }
 
 #about-section {
@@ -65,17 +55,12 @@
 
 #about-header {
   z-index: 6;
+  text-align: center;
 }
 
 #about-me-text {
-  max-width: 600px;
-  min-width: 500px;
   text-align: left;
   z-index: 3;
-}
-
-#about-me-text h3 {
-  font-style: italic;
 }
 
 #overlay {
@@ -89,13 +74,6 @@
 }
 
 /* MOBILE */
-/* 2xl */
-@media (max-width: 1536px) {
-  #about-me-text {
-    max-width: 300px;
-  }
-}
-
 /* xl */
 @media (max-width: 1280px) {
   .mobile-form {
@@ -108,20 +86,6 @@
 }
 
 @media (max-width: 1150px) {
-  #natalie-headshot {
-    min-width: 100%;
-    float: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #about-me-text {
-    max-width: 100%;
-    text-align: center;
-    padding: 20px;
-  }
-
   #about-section {
     background-position: 0px 0px !important;
   }
@@ -129,10 +93,6 @@
   #overlay {
     height: 1000px;
   }
-}
-
-/* l */
-@media (max-width: 1024px) {
 }
 
 /* m */
@@ -144,10 +104,6 @@
 
 /* s */
 @media (max-width: 640px) {
-  #about-me-text {
-    min-width: 100%;
-  }
-
   #bible-verse {
     margin: 100px 20px;
   }
