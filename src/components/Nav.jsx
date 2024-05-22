@@ -44,6 +44,12 @@ const Nav = () => {
           </li>
           <li aria-current="page" className='nav-links' id="pricing-link">
             <Link to={"/pricing"}>Pricing</Link></li>
+          <li aria-current="page" className='nav-links' id="contact-link">
+            <Link to={"/websites"}>Websites</Link>
+          </li>
+          <li aria-current="page" className='nav-links' id="contact-link">
+            <Link to={"/logos"}>Logos</Link>
+          </li>
         </ul>
         <a href="tel:7156421146"><button id="phone-nav">(715) 642-1146</button></a>
       </nav>

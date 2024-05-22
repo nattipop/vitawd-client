@@ -32,11 +32,7 @@
 }
 
 /* m */
-@media (max-width: 768px) {
-  .container {
-    max-width: 640px;
-  }
-
+@media (max-width: 1000px) {
   .links-container {
     display: none;
   }
@@ -52,6 +48,10 @@
 
   #hamburger-img {
     display: block;
+  }
+
+  #logo-gallery {
+    padding: 20px;
   }
 }
 

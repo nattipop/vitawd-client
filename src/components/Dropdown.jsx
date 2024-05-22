@@ -20,6 +20,8 @@ const Dropdown = () => {
       <Link to="/contact"><h1 className="dropdown-link" onClick={hamburgerShow}>Contact</h1></Link>
       <Link to="/about"><h1 className="dropdown-link" onClick={hamburgerShow}>About</h1></Link>
       <Link to="/pricing"><h1 className="dropdown-link" onClick={hamburgerShow}>Pricing</h1></Link>
+      <Link to="/websites"><h1 className="dropdown-link" onClick={hamburgerShow}>Websites</h1></Link>
+      <Link to="/logos"><h1 className="dropdown-link" onClick={hamburgerShow}>Logos</h1></Link>
     </div>
   )
 }

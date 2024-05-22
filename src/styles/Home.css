@@ -194,34 +194,13 @@ a:visited {
 
 #logo-gallery {
   background-color: var(--website-accent-2);
+  padding: 50px 200px;
 }
 
 #logo-gallery h1 {
   text-align: center;
   padding: 50px;
   color: white;
-}
-
-#img-slider-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 0px 100px 0px;
-  position: relative;
-}
-
-#carousel {
-  width: auto;
-  min-width: 500px;
-  height: 500px;
-}
-
-.logo-title {
-  color: var(--website-accent-2);
-}
-
-.logo-desc {
-  color: var(--website-accent-2);
 }
 
 @media (max-width: 1200px) {
