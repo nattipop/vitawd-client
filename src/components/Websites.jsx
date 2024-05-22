@@ -1,7 +1,13 @@
+import { useEffect } from "react";
 import "../styles/Websites.css"
 import { Link } from "react-router-dom"
 
 const Websites = () => {
+  useEffect(() => {
+    document.title = "Vita Web Design | Websites";
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div id="websites">
       <h1 id="websites-header">Want a website? Here's what I need to know.</h1>
