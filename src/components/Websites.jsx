@@ -17,7 +17,7 @@ const Websites = () => {
       <code>https://www.vitawd.com</code><br/><br/>
       Here, “vitawd” is the domain name. It is best to keep your domain name simple and unique to your business. Generally, the shorter the better, but keep in mind, shorter and more popular domains cost more!<br/><br/>You will be responsible for the cost of renewing your domain.<br/><br/>For more info on what a domain is, take a look at <a id="website-link-two" href="https://www.namecheap.com/domains/domain-definition-what-is-a-domain-name/">Namecheap's in-depth explanation</a></p>
       <h3 id="pages-header" className="website-page-headers">Pages</h3>
-      <p className="website-page-p">The average business website will have Home, About, Contact, and Services. Many will have more pages but this is the basic foundation for a website. If you aren't sure if something should be its own page, add it to the list anyway and we will discuss it!</p>
+      <p className="website-page-p">The average business website will have Home, About, Contact, and Services. Many will have more pages but this is the basic foundation for a website. If you aren't sure if a section should be its own page, add it to the list and we will discuss it.</p>
       <h3 id="features-header" className="website-page-headers">Features</h3>
       <p className="website-page-p"> What do I mean by features? Any way that you want your website to work for you.<br/><br/>Some examples include
       <ul>
@@ -36,7 +36,7 @@ const Websites = () => {
           <img className="website-page-logos" src="https://res.cloudinary.com/dawteptkh/image/upload/v1701378666/Untitled_Artwork_uajcqg.png" alt=""/>
           <h3 className="website-page-logos">Vita Web Design</h3>
         </div>
-        Whether you have a carefully crafted design or simply your business name in certain font, your logo will dictate the style of your website. A logo is the most important design work you will have done for your business; it should be recognizable, clear and consistent. Need logo design? <Link id="website-link" to="/logos">I offer that as well!</Link><br/><br/>No need to know the exact colors if you don't have them, I just need to know things like: brighter vs darker, neutral vs pops of color.<br/><br/>
+        Whether you have a carefully crafted design or simply your business name in a nice font, your logo will dictate the style of your website. A logo is the most important design work you will have done for your business; it should be recognizable, clear and consistent. Need logo design? <Link id="website-link" to="/logos">I offer that as well!</Link><br/><br/>No need to know the exact colors if you don't have them, I just need to know things like: brighter vs darker, neutral vs pops of color.<br/><br/>
         <div>
           <h3>Light</h3>
           <img className="color-images" src="https://mycodelesswebsite.com/wp-content/uploads/2022/11/Slack.jpg" alt="" />
