@@ -22,7 +22,7 @@ const Contact = () => {
           <h3>You can also reach me on</h3>
           <div className='row socials-row'>
             <div className='col socials-div'>
-              <img id="instagram-img" src="https://lh5.googleusercontent.com/p/AF1QipOHD09u1qOT-9VvNNhBWvCusOI8TBURR_GTyDPZ=w408-h543-k-no" alt="" />
+              <img id="instagram-img" src="https://res.cloudinary.com/dawteptkh/image/upload/v1704213007/IMG_2306_f322kf.jpg" alt="" />
               <Link to="https://www.instagram.com/vitawebdesign/"><div id='instagram-text'>
                 <h3>Instagram</h3>
               </div></Link>

@@ -55,10 +55,14 @@ const Home = () => {
         </h1>
       </div>
       <div id="home-pricing" className="section">
-        <h1 id="home-pricing-header">
-          Interested in a website?
-        </h1>
-        <a className="react-link" id="home-pricing-button" href="https://www.vitawd.com/pricing"><button>Check out my pricing</button></a>
+        <div className="services-divs">
+          <img src="https://res.cloudinary.com/dawteptkh/image/upload/v1717600129/glenn-carstens-peters-npxXWgQ33ZQ-unsplash_opa0sa.jpg" alt="" className="services-images" />
+          <a className="react-link home-pricing-button" href="https://www.vitawd.com/websites"><button>Websites</button></a>
+        </div>
+        <div className="services-divs">
+          <img className="services-images" src="https://res.cloudinary.com/dawteptkh/image/upload/v1717600118/dose-media-gxGtqG5ul2g-unsplash_xqwkw0.jpg" alt="" />
+          <a className="react-link home-pricing-button" href="https://www.vitawd.com/logos"><button>Logo Design</button></a>
+        </div>
       </div>
       <div id="home-about" className="section">
         <div className="container">

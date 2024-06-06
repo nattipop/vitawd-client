@@ -15,7 +15,7 @@ const Logos = () => {
       <h3 className="website-page-headers">Price</h3>
       <p className="website-page-p">My base price for a logo is $300 with $150 of that required up-front. Variations will be $100/each. You will receive the rights to your logo along with .jpeg and .png files of your logo.</p>
       <h3 className="website-page-headers">Design Process</h3>
-      <p className="website-page-p">I will create multiple sketches for a given logo. I will do my best to keep you updated as I work as it is important to have your input before and during the design process. Things like color and font are important to get just right because they will establish a brand for your business!</p>
+      <p className="website-page-p">I will create multiple sketches for a given logo. I will do my best to keep you updated while I work as it is important to have your input before and during the design process. Details like color and font are important to get exactly right because they will establish a brand for your business!</p>
     </div>
   )
 }
