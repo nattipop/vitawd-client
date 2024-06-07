@@ -12,6 +12,7 @@
   --title: "Yeseva One", serif;
   --sub-title: "Archivo Narrow", sans-serif;
   font-family: var(--sub-title);
+  overflow: hidden;
 }
 
 /* Text */
