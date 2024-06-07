@@ -277,12 +277,32 @@ a:visited {
   #home-about-button {
     margin: auto;
   }
+
+  #logo-pictures-container {
+    width: 100%;
+    height: 80%;
+  }
 }
 
 /* S */
 @media (max-width: 640px) {
   .container {
     max-width: 475px;
+  }
+
+  .services-divs {
+    padding: 0px;
+    margin: 0px;
+    width: 170px;
+  }
+
+  .services-images {
+    height: 100px;
+    width: 100px;
+  }
+
+  #home-pricing {
+    padding: 20px;
   }
 }
 
