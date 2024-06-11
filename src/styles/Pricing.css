@@ -64,6 +64,12 @@
   }
 }
 
+@media (max-width: 770px) {
+  #pricing {
+    padding: 100px 40px;
+  }
+}
+
 /* S */
 @media (max-width: 640px) {
 }
