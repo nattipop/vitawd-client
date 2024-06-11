@@ -129,6 +129,15 @@
   #bible-verse {
     margin: 100px 20px;
   }
+
+  #about-header {
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  #about-main-body {
+    padding: 0px;
+  }
 }
 
 /* xs */
