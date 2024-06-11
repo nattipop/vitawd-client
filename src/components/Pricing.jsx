@@ -19,7 +19,7 @@ const Pricing = () => {
         <h3 className="website-page-headers">Add-Ons</h3>
         <p className="website-page-p">I will be up-front about any extra costs. Things often come up during the design process and it's important to be flexible. Extras such as pages and sections will add value and therefore cost more.</p>
         <h3 className="website-page-headers">Domains</h3>
-        <p className="website-page-p">Every website needs a good domain name. I use <Link id="pricing-link-one" to="namecheap.com/domains">Namecheap</Link> for all my domains and custom emails. Click <Link id="pricing-link-two" to="https://www.namecheap.com/domains/domain-definition-what-is-a-domain-name/">here</Link> to learn more about what a domain is and why you need one. I offer domain renewal packages! Get a discount when you update your website each time your domain renews.</p>
+        <p className="website-page-p">Every website needs a good domain name. I use <Link id="pricing-link-one" to="namecheap.com/domains">Namecheap</Link> for all my domains and custom emails. Click <Link id="pricing-link-two" to="https://www.namecheap.com/domains/domain-definition-what-is-a-domain-name/">here</Link> to learn more about what a domain is and why you need one. I offer domain renewal packages! Get a discount when you update your website each time your domain renews. You will be responsible for all domain fees.</p>
     </div>
   )
 };
