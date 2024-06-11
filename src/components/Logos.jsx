@@ -9,6 +9,7 @@ const Logos = () => {
 
   return (
     <div id="logos">
+      <img className="weblog-image" src="https://res.cloudinary.com/dawteptkh/image/upload/v1718136690/IMG_3775_wcuqks.jpg" alt="" />
       <h1 id="websites-header">Need a logo? Start here.</h1>
       <h3 className="website-page-headers">Meeting</h3>
       <p className="website-page-p">With something as specific and crucial to your business as a logo, it is important for me to meet with you either in-person or over the phone. This leaves room for questions both ways and establishes good communication from the start - So give me a call!</p>

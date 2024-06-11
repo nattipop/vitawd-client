@@ -10,6 +10,7 @@ const Websites = () => {
 
   return (
     <div id="websites">
+      <img className="weblog-image" src="https://res.cloudinary.com/dawteptkh/image/upload/v1718136645/IMG_3759_d0jjn7.jpg" alt="" />
       <h1 id="websites-header">Want a website? Here's what I need to know.</h1>
       <p className="website-page-p">Below is a list of information that I will need in the process of designing a website. I will email a similar list when a meeting is confirmed.</p>
       <h3 id="domain-header" className="website-page-headers">Domain name</h3>

@@ -2,6 +2,7 @@
   width: 250px;
   height: 250px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 #natalie-headshot {
@@ -56,6 +57,10 @@
 #about-header {
   z-index: 6;
   text-align: center;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: end;
 }
 
 #about-me-text {
@@ -99,8 +104,8 @@
   }
 
   #about-main {
-    padding: 30px;
-    text-align: center;
+    padding: 100px;
+    text-align: left;
   }
 
   #about-me-text {

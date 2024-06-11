@@ -27,15 +27,17 @@ const About = () => {
         </h1>
       </div>
       <div id="about-main">
-        <div className="col" id="about-header">
-          <h1>Hi, I'm Natalie Poppe,</h1>
-          <h3>a Web Developer and Designer located in Northern Wisconsin.</h3>
-        </div>
-        <div id="about-main-body">
+        <div id="about-header">
           <div id="natalie-headshot">
             <img src="https://res.cloudinary.com/dawteptkh/image/upload/v1704213076/IMG_2349_roe58d.jpg" />
           </div>
-            <h3 id="about-me-text">
+          <div>
+            <h1>Hi, I'm Natalie Poppe,</h1>
+            <h3>a Web Developer and Designer located in Northern Wisconsin.</h3>
+          </div>
+        </div>
+        <div id="about-main-body">
+            <h3>
               I started Vita Web Design because I believe a good website is <i>vital</i> to promoting a business. My goal is to build a website that
               complements the quality of your business while catering to your
               specific needs.

@@ -3,6 +3,7 @@ import image from "../pictures/Vitalogo 01 Artboard 1.svg"
 import { useState, useEffect } from "react";
 import ImageSlider from  "./ImageSlider";
 import "../styles/Home.css";
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -56,12 +57,12 @@ const Home = () => {
       </div>
       <div id="home-pricing" className="section">
         <div className="services-divs">
-          <img src="https://res.cloudinary.com/dawteptkh/image/upload/v1717600129/glenn-carstens-peters-npxXWgQ33ZQ-unsplash_opa0sa.jpg" alt="" className="services-images" />
-          <a className="react-link home-pricing-button" href="https://www.vitawd.com/websites"><button>Websites</button></a>
+          <img src="https://res.cloudinary.com/dawteptkh/image/upload/v1718137245/IMG_3754_2_i9mioj.jpg" alt="" className="services-images" />
+          <Link className="react-link home-pricing-button" to="/websites"><button>Websites</button></Link>
         </div>
         <div className="services-divs">
-          <img className="services-images" src="https://res.cloudinary.com/dawteptkh/image/upload/v1717600118/dose-media-gxGtqG5ul2g-unsplash_xqwkw0.jpg" alt="" />
-          <a className="react-link home-pricing-button" href="https://www.vitawd.com/logos"><button>Logo Design</button></a>
+          <img className="services-images" src="https://res.cloudinary.com/dawteptkh/image/upload/v1718137251/IMG_3796_2_yadaaq.jpg" alt="" />
+          <Link className="react-link home-pricing-button" to="/logos"><button>Logo Design</button></Link>
         </div>
       </div>
       <div id="home-about" className="section">
@@ -69,7 +70,7 @@ const Home = () => {
           <div className="row">
             <div className="col" id="get-to-know">
               <h1 id="home-about-header">Get to know the designer</h1>
-              <a href="https://www.vitawd.com/about"><button id="home-about-button">Learn more about Natalie</button></a>
+              <Link to="/about"><button id="home-about-button">Learn more about Natalie</button></Link>
             </div>
             <div className="col" id="home-about-img-col">
               <img id="home-about-img" src="https://res.cloudinary.com/dawteptkh/image/upload/v1706569008/IMG_2349_alcun5.jpg" alt="" />
