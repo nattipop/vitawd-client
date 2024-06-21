@@ -16,7 +16,7 @@ const About = () => {
           <br />
           <br />
           In English, Vita is used to mean biography or
-          résumé. Just as the purpose of both of these is to tell a story, your website should to tell a story: your story.
+          résumé. Just as the purpose of both of these is to tell a story, your website should to tell your story.
           <br />
           <br />
           "In Him was life, and the life was the light of men. The light shines
