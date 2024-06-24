@@ -51,7 +51,7 @@ const About = () => {
               <a href="https://wordpress.org/">Wordpress.org</a>.
             </h3>
             <br/>
-            <h3>I have a passion for making things beautiful and enjoy a challenge. In my spare time I can be found baking bread, painting, hiking, knitting, and both making and drinking coffee.</h3>
+            <h3>I have a passion for finding the beauty in God's creation and I enjoy a challenge. In my spare time I can be found baking bread, painting, hiking, knitting, and both making and drinking coffee.</h3>
         </div>
       </div>
     </div>

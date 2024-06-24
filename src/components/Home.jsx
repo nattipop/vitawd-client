@@ -1,5 +1,5 @@
-import animation from "../pictures/Animation.png"
-import image from "../pictures/Vitalogo 01 Artboard 1.svg"
+import animation from "../pictures/VITA___ANIMATION.gif"
+import image from "../pictures/vitalogo.png"
 import { useState, useEffect } from "react";
 import ImageSlider from  "./ImageSlider";
 import "../styles/Home.css";
@@ -8,39 +8,23 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   const [currentImage, setImage] = useState(animation);
-  const [imageStyling, setImageStyle] = useState();
 
   useEffect(() => {
     document.title = "Vita Web Design | Home";
     window.scrollTo(0, 0);
     setTimeout(() => {
       setImage(image)
-      setImageStyle({width: "300px", paddingTop: "15px", paddingLeft: "12px"})
     }, 2400)
   }, []);
   
   const animateLogo = () => {
     setImage(animation);
-    setImageStyle({});
     
     setTimeout(() => {
       setImage(image)
-      setImageStyle({width: "300px", paddingTop: "15px", paddingLeft: "12px"})
     }, 2400);
     return
   };
-
-  const renderLogos = () => {
-    return logos.map(logo => {
-      return (
-        <div key={logo.id} id={logo.title} className="col reg-grid-logo-box">
-          <img className="reg-grid-img" src={logo.src} alt="" title={logo.title} />
-          <h3 className="logo-title">{logo.title}</h3>
-          <p className="logo-desc">{logo.description}</p>
-        </div>
-      )
-    })
-  }
   
   return (
     <div id="home">
@@ -48,11 +32,10 @@ const Home = () => {
         <img 
           src={currentImage}
           id="hero-img"
-          style={imageStyling} 
           onClick={animateLogo}
           />
         <h1 className="header-front-page">
-          Building websites for businesses in Barron County, WI
+          Building websites for businesses in Barron County, WI and the surrounding area.
         </h1>
       </div>
       <div id="home-pricing" className="section">

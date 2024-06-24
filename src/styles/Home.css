@@ -1,10 +1,8 @@
 #hero-img {
-  image-rendering: crisp-edges;
   width: 630px;
-  height: 200px;
+  height: 300px;
   object-fit: cover;
   margin-top: 30px;
-  overflow: hidden !important;
 }
 
 a {
